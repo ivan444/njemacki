@@ -1,0 +1,464 @@
+\documentclass[12pt,german]{article}
+\usepackage{amsmath}
+\usepackage{amssymb}
+\usepackage[croatian,german]{babel}
+\usepackage{booktabs}
+\usepackage[bf]{caption}
+%\usepackage{enumerate}
+\usepackage{enumitem}
+\usepackage{float}
+\usepackage[T1]{fontenc}
+\usepackage[a4paper, left=0.5cm, right=0.5cm, bottom=2cm, top=0.5cm]{geometry}
+\usepackage{graphicx}
+\usepackage[utf8]{inputenc}
+\usepackage{lmodern}
+\usepackage{multicol}
+\usepackage{titlesec}
+\usepackage[
+    left = \glqq,%
+    right = \grqq%
+]{dirtytalk}
+
+\captionsetup{labelsep=space,justification=justified,singlelinecheck=off}
+
+% custom section
+\titleformat{\section}[block]
+{\normalfont\Large\bfseries}
+{\thesection\hskip 9pt$|$\hskip 9pt}
+{0pt}
+{}
+
+\newcommand{\nastavak}[1]{\emph{-#1}}
+\newcommand{\prefiks}[1]{\emph{#1-}}
+\newcommand{\clan}[1]{\emph{#1}}
+\newcommand{\primjer}[2]{\say{#1 $\longmapsto$ #2}}
+\newcommand{\primjerNul}[1]{\say{#1}}
+\newcommand{\primjerTri}[3]{\say{#1 $\longmapsto$ #2 $\longmapsto$ #3}}
+\newcommand{\prijevod}[2]{\item #1 (\emph{#2})}
+
+\author{Ivan Krišto}
+
+\begin{document}
+\title{Sažetak njemačke gramatike}
+\date{}
+\maketitle
+
+
+\begin{multicols}{2}
+\section{Rodovi}
+
+\begin{table}[H]
+\caption{Određeni članovi.}
+\begin{tabular}{lllll}
+\toprule
+Rod & Nominativ & Genitiv & Dativ & Akuzativ \\
+\midrule
+Muški & der & des & dem & den \\
+Ženski & die & der & der & die \\
+Srednji & das & des & dem & das \\
+Množina & die & der & den & die \\
+\bottomrule
+\end{tabular}
+\end{table}
+
+\begin{table}[H]
+\caption{Neodređeni članovi.}
+\begin{tabular}{lllll}
+\toprule
+Rod & Nominativ & Genitiv & Dativ & Akuzativ \\
+\midrule
+Muški & ein & eines & einem & einen \\
+Ženski & eine & einer & einer & eine \\
+Srednji & ein & eines & einem & ein \\
+\bottomrule
+\end{tabular}
+\end{table}
+
+\subsection{Najčešći završetci}
+\begin{description}
+  \item[Muški rod:]
+    \nastavak{ling}, \nastavak{ig}, \nastavak{ich} (uvijek);
+    \nastavak{er}, \nastavak{el}, \nastavak{en} (često)
+  \item[Ženski:]
+    \nastavak{in}, \nastavak{ung}, \nastavak{schaft}, \nastavak{ei},
+    \nastavak{t\"at}, \nastavak{heit}, \nastavak{keit},
+    \nastavak{ie}, \nastavak{tion} (uvijek);
+    \nastavak{e} (često)
+  \item[Srednji:]
+    \nastavak{chen}, \nastavak{lein}, \nastavak{um}, \nastavak{ium}.
+    Riječi sa prefiksom \prefiks{ge} su obično srednjeg roda
+\end{description}
+
+\section{Množina}
+Mali broj imenica tvori množinu dodavanjem nastavka \nastavak{s} i člana \clan{die}:
+
+\primjer{der Park}{die Parks}
+
+\begin{description}
+  \item[Muški rod:]
+    dodavanjem nastavka \nastavak{e} i člana \clan{die}:
+
+    \primjer{der Abend}{die Abende}
+
+    Imenice koje završavaju na \nastavak{er}, \nastavak{el}, \nastavak{en} nemaju promjene nastavka u množini, ali se dodaje umlaut iznad samoglasnika:
+
+    \primjer{der Vater}{die V\"ater}
+
+  \item[Ženski rod:]
+    dodavanjem nastavka \nastavak{n}, ili \nastavak{en}:
+
+    \primjer{die Frau}{die Frauen}
+
+    Ako imenica završava na \nastavak{in}, nastavak je \nastavak{nen}:
+
+    \primjer{die Freundin}{die Freundinnen}
+
+  \item[Srednji rod:]
+    Mnoge imenice tvore množinu zamjenom člana \clan{die} bez nastavka:
+
+    \primjer{das Fenster}{die Fenster}
+
+    Imenice koje završavaju na \nastavak{chen} ili \nastavak{lein} tvore množinu zamjenom člana \clan{die}:
+
+    \primjer{das M\"adchen}{die M\"adchen}
+
+    Neke (posebno jednosložne) tvore množinu dodavanjem umlauta i nastavka \nastavak{er}, s članom \clan{die}:
+
+    \primjer{das Fahrrad}{die Fahrr\"ader} \\
+    \primjer{das Glas}{die Gl\"aser}
+\end{description}
+
+\section{Zamjenice}
+\begin{table*}[htb]
+\caption{Osobne zamjenice}
+\begin{tabular}{ll|ll|ll}
+\toprule
+  \multicolumn{2}{c}{Nominativ} & \multicolumn{2}{c}{Dativ} & \multicolumn{2}{c}{Akuzativ} \\
+\midrule
+  ja & ich & sebi & mir & mene & mich \\
+  ti/Vi & du/Sie & tebi/Vama & dir/Ihnen & tebe/Vas & dich/Sie \\
+  on/ona/ono & er/sie/es & njemu/njoj/njemu & ihm/ihr/ihm & njega/nju/to & ihn/sie/es \\
+  mi & wir & nama & uns & nas & uns \\
+  vi & ihr & vama & euch & vas & euch \\
+  oni & sie & njima & ihnen & njih & sie \\
+\bottomrule
+\end{tabular}
+\end{table*}
+
+\begin{table}[H]
+\caption{Posvojne zamjenice}
+\begin{tabular}{ll}
+\toprule
+Hrvatski  &  Njemački \\
+\midrule
+moj & mein \\
+tvoj/Vaš & dein/Ihr \\
+njegov/njen/njegov & sein/ihr/sein \\
+naš & unser \\
+vaš & euer \\
+njihov & ihr \\
+\bottomrule
+\end{tabular}
+\end{table}
+
+Pokazne zamjenice:
+\begin{itemize}[nolistsep, label={}]
+    \prijevod{dieser}{ovo}
+    \prijevod{jeder}{svaki}
+    \prijevod{solcher}{kao}
+    \prijevod{welcher}{koji}
+    \prijevod{jener}{ono}
+    \prijevod{mancher}{mnogi}
+    % TODO WTF
+\end{itemize}
+
+\section{Pridjevi}
+\begin{itemize}
+  \item Ako je pridjev na kraju rečenice, nema nastavka.
+  % Das Kind ist \emph{klein}.
+  \item Ako je pridjev ispred imenice koja je u \emph{definitivnom} obliku (ima član \clan{der}/\clan{die}/\clan{das}), pridjev dobiva nastavak:
+  \begin{itemize}[label={}]
+    \item \nastavak{e} za jedninu
+    \item \nastavak{en} za množinu
+  \end{itemize}
+  % Das \emph{kleine} Kind ist traurig.
+  \item Kod \emph{neodređenih} članova, pridjev preuzima oznaku roda dodavanjem nastavaka: \nastavak{r}, \nastavak{e} ili \nastavak{s} (zbog de\emph{r}, di\emph{e}, da\emph{s}). % TODO: provjeri jesu li nastavci točni; nije li možda er e es?
+  % ein guter Mann
+  % eine gute Frau
+  % ein gutes Kind
+\end{itemize}
+
+\subsection{Komparacija pridjeva}
+\begin{itemize}
+  \item Komparativ se tvori dodavanja nastavka \nastavak{er}: \\
+    \primjer{sch\"on}{sch\"oner}
+
+  \item Jednosložni pridjevi sa samoglasnicima \emph{a}, \emph{o}, \emph{u}, u komparativu dobivaju umlaut: \\
+    \primjer{alt}{\"alter}
+
+  \item Superlativ se tvori dodavanjem nastavka \nastavak{st}: \\
+    \primjer{klein}{kleinst}
+
+  \item Ako pridjev završava na \nastavak{d}, \nastavak{t}, \nastavak{s}, \nastavak{ss}, \nastavak{\ss}, ili \nastavak{z}, tad se \nastavak{e} dodaje prije superlativnog nastavka \nastavak{st}: \\
+    \primjer{hei{\ss}}{hei{\ss}est}
+
+  \item Ako pridjev završava na \nastavak{er}, ili \nastavak{el}, tad gubi \nastavak{e} u komparativu i superlativu: \\
+    \primjer{sauer}{saurer}
+\end{itemize}
+
+\subsection{Posebnosti akuzativa}
+Ako imenica u muškom rodu ima pridjev ispred sebe, pridjevu se dodaje nastavak \nastavak{en}:
+\begin{description}
+  \item[Nominativ:] der alte Mann
+  \item[Akuzativ:] den alten Mann
+\end{description}
+
+\section{Glagoli}
+\begin{table}[H]
+\caption{Konjugacija pravilnih glagola}
+\begin{tabular}{lll}
+\toprule
+Rod   &   Nastavak  &    Primjer \\
+\midrule
+ja  & \nastavak{e} & ich gehe \\
+ti/Vi & \nastavak{st}/\nastavak{en} & du gehst/Sie gehen \\
+on/ona/ono & \nastavak{t} &  er/sie/es geht \\
+mi & \nastavak{en} & wir gehen \\
+vi & \nastavak{t} & ihr geht \\
+oni & \nastavak{en} & sie gehen \\
+\bottomrule
+\end{tabular}
+\end{table}
+
+\begin{itemize}
+  \item Infinitiv ima nastavak \nastavak{u} ili \nastavak{eu}.
+  \item Ako korijen glagola završava na \nastavak{t} ili \nastavak{d}, \nastavak{e} se dodaje prije nastavka: \\
+    \primjer{arbeiten}{du arbeitest} \\
+    \primjer{arbeiten}{er/sie/es arbeitet}
+\end{itemize}
+
+\begin{table}[H]
+\caption{Glagol biti}
+\begin{tabular}{ll}
+\toprule
+Hrvatski  &  Njemački \\
+\midrule
+ja sam   &   ich bin \\
+ti si/Vi ste  &  du bist / Sie sind \\
+on/ona/ono je &  er/sie/es ist \\
+mi smo  &  wir sind \\
+vi ste  &  ihr seid \\
+oni su  &  sie sind \\
+\bottomrule
+\end{tabular}
+\end{table}
+
+\begin{table}[H]
+\caption{Glagol imati}
+\begin{tabular}{ll}
+\toprule
+Hrvatski  &  Njemački \\
+\midrule
+ja imam & ich habe \\
+ti imaš/Vi imate & du hast/Sie haben \\
+on/ona/ono ima & er/sie/es hat \\
+mi imamo & wir haben \\
+vi imate & ihr habt \\
+oni imaju & sie haben \\
+\bottomrule
+\end{tabular}
+\end{table}
+
+%Prefiksi:
+%\begin{description}
+%  \item[Nerazdvojivi:] be-, ent-, emp-, er-, ge-, ver-, zer-
+%  \item[Razdvojivi:] an, auf, aus, bei, ein, her, hin, mit, nach, um, weg
+%% TODO: tablica str 82 everything
+%% TODO: ukloniti?
+%\end{description}
+
+\section{Negacija}
+\begin{itemize}
+  \item \emph{nicht} uz glagole i \emph{kein} uz imenice.
+  \item \emph{kein} negira \emph{ein} (\emph{kein}, \emph{keine}, \emph{kein}).
+  \item Derivati negacija:
+  \begin{itemize}[nolistsep, label={}]
+      \prijevod{nein}{ne}
+      \prijevod{keinerlei}{nijedan}
+      \prijevod{keinesfalls}{nipošto}
+      \prijevod{keineswegs}{ni slučajno}
+      \prijevod{nichts}{ništa}
+      \prijevod{nie}{nikad}
+      \prijevod{niemals}{nijednom}
+      \prijevod{niemand}{nitko}
+      \prijevod{nirgendwo}{nigdje}
+      \prijevod{weder \ldots noch \ldots}{niti \ldots ni \ldots}
+  \end{itemize}
+\end{itemize}
+
+\section{Futur}
+Osnova je glagol \emph{werden}.
+Osim futura, \emph{werden} može značiti ``\emph{postati}:'' \\
+\primjer{Ich wird alt}{Ja postajem star / Ja starim} \\
+\primjer{Ich werde essen.}{Ja ću jesti.} \\
+\primjer{es wird kalt.}{Postaje hladno.}
+
+\begin{table}[H]
+\begin{tabular}{ll}
+\toprule
+Hrvatski  &  Njemački \\
+\midrule
+ja ću <glagol> & ich werde <glagol u infinitivu> \\
+ti ćeš/Vi ćete & du wirst/Sie werden \\
+on/ona/ono će & er/sie/es wird \\
+mi ćemo & wir werden \\
+vi ćete & ihr werdet \\
+oni će & sie werden \\
+\bottomrule
+\end{tabular}
+\end{table}
+
+\section{Prošlo vrijeme}
+\begin{itemize}
+  \item Tvori se dodavanjem nastavka \nastavak{te} na korijen riječi (kod pravilnih glagola): \\
+  \primjer{fragen}{fragte}
+  \item Ako korijen završava na \nastavak{t} ili \nastavak{d}, \nastavak{e} se dodaje prije nastavka \nastavak{te}:
+  \primjer{warten}{wartete}
+
+  \item Konjugacija slijedi pravila iz prezenta (samo što korijen ima nastavak).
+\end{itemize}
+
+\subsection{Prošlo svršeno vrijeme}
+Tvori se dodavanjem prefiksa \prefiks{ge} i sufiksa \nastavak{t} na korijen riječi. Koristi se uz modalni glagol \emph{haben}: \\
+\primjerTri{kaufen}{kauft}{habe gekauft} \\
+\primjerNul{Ich habe das Buch gekauft.}
+
+\section{Pomoćni glagoli}
+TODO everything str 188-191
+
+\section{Upitne riječi}
+\begin{itemize}[nolistsep, label={}]
+    \prijevod{wo}{gdje}
+    \prijevod{woher}{odkud}
+    \prijevod{wie}{kako}
+    \prijevod{was}{što}
+    \prijevod{warum}{zašto}
+    \prijevod{wem}{komu}
+    \prijevod{wohin}{kamo}
+    \prijevod{wer}{tko}
+    \prijevod{wann}{kad}
+    \prijevod{was f\"ur}{kakva}
+    \prijevod{wen}{koga}
+    \prijevod{wessen}{čiji, čiju}
+\end{itemize}
+
+\section{Veznici}
+\begin{itemize}
+  \item Standardni:
+  \begin{itemize}[nolistsep, label={}]
+      \prijevod{oder}{ili}
+      \prijevod{und}{i}
+      \prijevod{aber}{ali}
+      \prijevod{denn}{jer}
+  \end{itemize}
+
+  \item Veznici kod kojih glagol mora doći na kraj:
+  \begin{itemize}[nolistsep, label={}]
+      \prijevod{dass}{da}
+      \prijevod{wenn}{ako}
+      \prijevod{weil}{zbog}
+      \prijevod{als}{kad}
+  \end{itemize}
+  \primjerNul{Ich wusste nicht, dass du ins Berlin ist.}
+
+  \item Upitne riječi (\emph{wer}, \emph{wen}, \emph{wem}, \emph{wessen}, \emph{was}, \emph{was f\"ur}, \emph{warum}, \emph{wann}, \emph{wie}, \emph{wo}, \emph{welcher}) se mogu koristiti kao veznici: \\
+  \primjerNul{Ich wisse nicht, mit wem sie spricht.} \\
+  \primjerNul{Er sagte nicht, was das bedentet.}
+
+  \item Riječice \clan{der}, \clan{die} i \clan{das} se mogu koristiti kao relativni veznici: \\
+  \primjerNul{Er findet einen Hund, der alt und krank ist.}
+\end{itemize}
+
+\section{Prilozi}
+\begin{itemize}[nolistsep, label={}]
+    \prijevod{an}{do}
+    \prijevod{auf}{na}
+    \prijevod{hinter}{iza}
+    \prijevod{in}{u}
+    \prijevod{neben}{pokraj}
+    \prijevod{\"uber}{preko, iznad}
+    \prijevod{unter}{ispod}
+    \prijevod{vor}{pred}
+    \prijevod{zwischen}{između}
+\end{itemize}
+
+Skraćenice:
+\begin{itemize}[nolistsep, label={}]
+    \prijevod{an das}{ans}
+    \prijevod{an dem}{am}
+    \prijevod{auf das}{aufs}
+    \prijevod{in das}{ins}
+    \prijevod{in dem}{im}
+    \prijevod{von dem}{vom}
+    \prijevod{zu dem}{zum}
+    \prijevod{zu der}{zur}
+\end{itemize}
+
+\section{Prijedlozi}
+\begin{itemize}
+  \item Prijedlozi koji zahtjevaju \emph{genitiv}:
+  \begin{itemize}[nolistsep, label={}]
+      \prijevod{anstatt}{umjesto}
+      \prijevod{trotz}{unatoč}
+      \prijevod{w\"ahrend}{tijekom}
+      \prijevod{wegen}{zbog}
+      \prijevod{dank}{zahvaljujući}
+  \end{itemize}
+
+  \item Prijedlozi koji zahtjevaju \emph{dativ}:
+  \begin{itemize}[nolistsep, label={}]
+      \prijevod{aus}{iz, van}
+      \prijevod{au{\ss}er}{usput, izuzev}
+      \prijevod{nach}{nakon, prema [mjestu]}
+      \prijevod{von}{od (engl.\ \emph{from, of})}
+      \prijevod{zu}{do, prema}
+      \prijevod{bei}{uz, pri}
+      \prijevod{mit}{sa}
+      \prijevod{seit}{odkad / od (engl.\ \emph{since})}
+  \end{itemize}
+
+  \item Prijedlozi koji zahtjevaju \emph{akuzativ}:
+  \begin{itemize}[nolistsep, label={}]
+      \prijevod{bis}{prema, do}
+      \prijevod{durch}{kroz}
+      \prijevod{f\"ur}{za}
+      \prijevod{ohne}{bez}
+      \prijevod{um}{oko, na}
+      \prijevod{wider, gegen}{nasuprot, protiv}
+  \end{itemize}
+\end{itemize}
+
+\section{Genitiv}
+Izražava posjedovanje. Tvori se dodavanjem nastavka \nastavak{s}. \\
+\primjer{Mutters Bruder}{Majčin brat} \\
+\primjer{Das Buch des klinen Kindes ist kurz}{Knjiga malog djeteta je kratka} \\
+\primjer{Trotz des sch\"onen Wetters bleibt er zu Hause}{Unatoč lijepom vremenu, ostao je doma}
+
+\section{Izgovor}
+TODO
+
+\end{multicols}
+
+\end{document}
+
+% Odbačeni dijelovi.
+%
+%\section{Dativ}
+%- Koristi se uz "indirektne objekte"
+%
+%Der Vater kaufte seinem Sohn ein Fahrrad -> Otac je kupio svome sinu bicikl
+%
+%\section{Akuzativ}
+%- Koristi se uz "direktne objekte"
+%
+%Sie sehen das Geschenk -> Oni gledaju poklon
