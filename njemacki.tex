@@ -12,7 +12,10 @@
 \usepackage[utf8]{inputenc}
 \usepackage{lmodern}
 \usepackage{multicol}
+\usepackage{multirow}
+\usepackage{rotating}
 \usepackage{titlesec}
+\usepackage[flushleft]{threeparttable}
 \usepackage[
     left = \glqq,%
     right = \grqq%
@@ -78,16 +81,18 @@ Srednji & ein & eines & einem & ein \\
 \subsection{Najčešći završetci}
 \begin{description}
   \item[Muški rod:]
-    \nastavak{ling}, \nastavak{ig}, \nastavak{ich} (uvijek);
-    \nastavak{er}, \nastavak{el}, \nastavak{en} (često)
+    \nastavak{ismus}, \nastavak{or}, \nastavak{ling}, \nastavak{ig},
+    \nastavak{ich} (uvijek); \nastavak{er}, \nastavak{el}, \nastavak{en}
+    (često)
   \item[Ženski:]
     \nastavak{in}, \nastavak{ung}, \nastavak{schaft}, \nastavak{ei},
-    \nastavak{t\"at}, \nastavak{heit}, \nastavak{keit},
-    \nastavak{ie}, \nastavak{tion} (uvijek);
+    \nastavak{t\"at}, \nastavak{heit}, \nastavak{keit}, \nastavak{ur},
+    \nastavak{ie}, \nastavak{ion}, \nastavak{ik} (uvijek);
     \nastavak{e} (često)
   \item[Srednji:]
-    \nastavak{chen}, \nastavak{lein}, \nastavak{um}, \nastavak{ium}.
-    Riječi sa prefiksom \prefiks{ge} su obično srednjeg roda
+    \nastavak{chen}, \nastavak{lein}, \nastavak{um}, \nastavak{tum},
+    \nastavak{ment}, \nastavak{ma} (uvijek). Riječi sa prefiksom \prefiks{ge}
+    su obično srednjeg roda.
 \end{description}
 
 \section{Množina}
@@ -128,6 +133,34 @@ Mali broj imenica tvori množinu dodavanjem nastavka \nastavak{s} i člana \clan
     \primjer{das Fahrrad}{die Fahrr\"ader} \\
     \primjer{das Glas}{die Gl\"aser}
 \end{description}
+
+\begin{table*}[htb]
+\caption{Deklinacija imenica}
+\begin{tabular}{llllll}
+\toprule
+  &  & Muški rod & Muški rod (n-deklinacija) & Ženski rod & Srednji rod \\
+\midrule
+\multirow{4}{3mm}{\begin{sideways}\parbox{15mm}{Jednina}\end{sideways}}
+& Nominativ & der Mann & der Junge & die Frau & das Kind \\
+& Genitiv & des Mann\bf{es} & des Junge\bf{n} & der Frau & des Kind\bf{es} \\
+& Dativ & dem Mann & dem Junge\bf{n} & der Frau & dem Kind \\
+& Akuzativ & den Mann & den Junge\bf{n} & die Frau & das Kind \\
+\midrule
+\multirow{4}{3mm}{\begin{sideways}\parbox{15mm}{Množina}\end{sideways}}
+& Nominativ & die M\"anner & die Junge\bf{n} & die Frauen & die Kinder \\
+& Genitiv & der M\"anner & der Junge\bf{n} & der Frauen & der Kinder \\
+& Dativ & den M\"anner\bf{n} & den Junge\bf{n} & den Frauen & den Kinder\bf{n} \\
+& Akuzativ & die M\"anner & die Junge\bf{n} & die Frauen & die Kinder \\
+\bottomrule
+\end{tabular}
+\begin{tablenotes}
+  \small
+  n-deklinacija: Imenicama u muškom rodu koje završavaju na \nastavak{e} ili
+  \nastavak{oge} dodaje se nastavak \nastavak{n}. A onima koje završavaju na
+  \nastavak{and}, \nastavak{ant}, \nastavak{ent}, \nastavak{ist}, \nastavak{at}
+  ili \nastavak{ad} dodaje se nastavak \nastavak{en}.
+\end{tablenotes}
+\end{table*}
 
 \section{Zamjenice}
 \begin{table*}[htb]
@@ -170,19 +203,16 @@ Pokazne zamjenice:
     \prijevod{welcher}{koji}
     \prijevod{jener}{ono}
     \prijevod{mancher}{mnogi}
-    % TODO WTF
 \end{itemize}
 
 \section{Pridjevi}
 \begin{itemize}
   \item Ako je pridjev na kraju rečenice, nema nastavka.
-  % Das Kind ist \emph{klein}.
   \item Ako je pridjev ispred imenice koja je u \emph{definitivnom} obliku (ima član \clan{der}/\clan{die}/\clan{das}), pridjev dobiva nastavak:
   \begin{itemize}[label={}]
     \item \nastavak{e} za jedninu
     \item \nastavak{en} za množinu
   \end{itemize}
-  % Das \emph{kleine} Kind ist traurig.
   \item Kod \emph{neodređenih} članova, pridjev preuzima oznaku roda dodavanjem nastavaka: \nastavak{r}, \nastavak{e} ili \nastavak{s} (zbog de\emph{r}, di\emph{e}, da\emph{s}). % TODO: provjeri jesu li nastavci točni; nije li možda er e es?
   % ein guter Mann
   % eine gute Frau
@@ -439,31 +469,77 @@ Skraćenice:
   \end{itemize}
 \end{itemize}
 
-\section{Genitiv}
-Izražava posjedovanje. Tvorba:
-\begin{itemize}
-  \item Imenice u \emph{muškom} rodu dobivaju nastavak \nastavak{s}:\\
-    \primjer{Mutters Bruder}{Majčin brat}
-  \item Imenicama u \emph{ženskom} rodu član se mijenja u \clan{der}.
-  \item Kod imenica u \emph{srednjem} rodu član se mijenja u \clan{des} i dobivaju nastavak \nastavak{s}:\\
-    \primjer{Das Buch des klinen Kindes ist kurz}{Knjiga malog djeteta je kratka} \\
-\end{itemize}
-
 \section{Izgovor}
 TODO
+% Ä – dugo eeeee
+% Ü – izmedju u – i, više iiiiii
+% Ö – izmedju o-e, više eeee sa skupljenim ustima
+% ß – oštro sss
+% 
+% ei – ai eins = ains
+% eu – oi deutsch = doič
+% ie – iiiiiiii vier = viiir
+% h –
+% nemo ha ne čita se, kada je ispred samoglasnika,
+% daje mu dužinu; zehn = ceen
+% s – z sechs = zechs
+% ch - h acht = aht, onako grleno h
+% ck - k Jacke = Jake
+% chs – ks sechs = zeks
+% sch – š Schule= šule
+% tz – c Katze = Kace
+% tsch – č tschüs(s) = či(u)s
+% sp –šp Sport = Šport
+% st – št Stunde = Štunde
+% v – f Vater = Fater
+% z - c zehn= ceen
 
 \end{multicols}
 
 \end{document}
 
-% Odbačeni dijelovi.
-%
-%\section{Dativ}
-%- Koristi se uz "indirektne objekte"
-%
-%Der Vater kaufte seinem Sohn ein Fahrrad -> Otac je kupio svome sinu bicikl
-%
-%\section{Akuzativ}
-%- Koristi se uz "direktne objekte"
-%
-%Sie sehen das Geschenk -> Oni gledaju poklon
+% Glagol sein – konjugacija
+% Präsens
+% ich bin
+% du bist
+% er ist
+% wir sind
+% ihr seid
+% sie sind
+% Präteritum
+% ich war
+% du warst
+% er war
+% wir waren
+% ihr wart
+% sie waren
+% Perfekt
+% ich bin gewesen
+% du bist gewesen
+% er ist gewesen
+% wir sind gewesen
+% ihr seid gewesen
+% sie sind gewesen
+% Plusquamperfekt
+% ich war gewesen
+% du warst gewesen
+% er war gewesen
+% wir waren gewesen
+% ihr wart gewesen
+% sie waren gewesen
+% Futur I
+% ich werde sein
+% du wirst sein
+% er wird sein
+% wir werden sein
+% ihr werdet sein
+% sie werden sein
+% Futur II
+% ich werde gewesen sein
+% du wirst gewesen sein
+% er wird gewesen sein
+% wir werden gewesen sein
+% ihr werdet gewesen sein
+% sie werden gewesen sein
+% Kao glagol sa svojim punim značenjem, koristi se kod:
+% Predstavljanja, pozicija, mesto na kome se nalazimo, kao imeniski deo predikata
