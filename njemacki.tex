@@ -7,7 +7,7 @@
 \usepackage{enumitem}
 \usepackage{float}
 \usepackage[T1]{fontenc}
-\usepackage[a4paper, left=0.5cm, right=0.5cm, bottom=2cm, top=0.5cm]{geometry}
+\usepackage[a4paper, left=0.3cm, right=0.3cm, bottom=2cm, top=0.5cm]{geometry}
 \usepackage{graphicx}
 \usepackage[utf8]{inputenc}
 \usepackage{lmodern}
@@ -37,6 +37,73 @@
 \newcommand{\primjerNul}[1]{\say{#1}}
 \newcommand{\primjerTri}[3]{\say{#1 $\longmapsto$ #2 $\longmapsto$ #3}}
 \newcommand{\prijevod}[2]{\item #1 (\emph{#2})}
+
+\newcommand{\ja}[1]{\renewcommand{\internoja}{ja #1}}
+\newcommand{\tivi}[2]{\renewcommand{\internotivi}{ti #1/Vi #2}}
+\newcommand{\ono}[1]{\renewcommand{\internoono}{on/ona/ono #1}}
+\newcommand{\mi}[1]{\renewcommand{\internomi}{mi #1}}
+\newcommand{\vi}[1]{\renewcommand{\internovi}{vi #1}}
+\newcommand{\oni}[1]{\renewcommand{\internooni}{oni #1}}
+\newcommand{\internoja}{TODO!}
+\newcommand{\internotivi}{TODO!}
+\newcommand{\internoono}{TODO!}
+\newcommand{\internomi}{TODO!}
+\newcommand{\internovi}{TODO!}
+\newcommand{\internooni}{TODO!}
+
+\newcommand{\ich}[1]{\renewcommand{\internoich}{ich #1}}
+\newcommand{\dusie}[2]{\renewcommand{\internodusie}{du #1/Sie #2}}
+\newcommand{\es}[1]{\renewcommand{\internoes}{er/sie/es #1}}
+\newcommand{\wir}[1]{\renewcommand{\internowir}{wir #1}}
+\newcommand{\ihr}[1]{\renewcommand{\internoihr}{ihr #1}}
+\newcommand{\sie}[1]{\renewcommand{\internosie}{sie #1}}
+\newcommand{\internoich}{TODO!}
+\newcommand{\internodusie}{TODO!}
+\newcommand{\internoes}{TODO!}
+\newcommand{\internowir}{TODO!}
+\newcommand{\internoihr}{TODO!}
+\newcommand{\internosie}{TODO!}
+
+\newcommand{\pja}[1]{\renewcommand{\internopja}{ja sam #1}}
+\newcommand{\ptivi}[2]{\renewcommand{\internoptivi}{ti si #1/Vi ste #2}}
+\newcommand{\pon}[1]{\renewcommand{\internopon}{on (ona/ono) je #1}}
+\newcommand{\pmi}[1]{\renewcommand{\internopmi}{mi smo #1}}
+\newcommand{\pvi}[1]{\renewcommand{\internopvi}{vi ste #1}}
+\newcommand{\poni}[1]{\renewcommand{\internoponi}{oni su #1}}
+\newcommand{\internopja}{TODO!}
+\newcommand{\internoptivi}{TODO!}
+\newcommand{\internopon}{TODO!}
+\newcommand{\internopmi}{TODO!}
+\newcommand{\internopvi}{TODO!}
+\newcommand{\internoponi}{TODO!}
+
+\newenvironment{glagoltbl}[1]
+{%
+  \begin{table}[H]%
+    \caption{Glagol #1}}
+{%
+    \begin{tabular}{lllll}%
+    \toprule%
+      & Hrvatski  &  Njemački \\%
+    \midrule%
+    \multirow{6}{2mm}{\begin{sideways}\parbox{15mm}{Prezent}\end{sideways}}%
+      & \internoja & \internoich \\%
+      & \internotivi & \internodusie \\%
+      & \internoono & \internoes \\%
+      & \internomi & \internowir \\%
+      & \internovi & \internoihr \\%
+      & \internooni & \internosie \\%
+    \midrule%
+    \multirow{6}{2mm}{\begin{sideways}\parbox{15mm}{Perfekt}\end{sideways}}%
+      & \internopja & \internoich \\%
+      & \internoptivi & \internodusie \\%
+      & \internopon & \internoes \\%
+      & \internopmi & \internowir \\%
+      & \internopvi & \internoihr \\%
+      & \internoponi & \internosie \\%
+      \bottomrule%
+    \end{tabular}%
+  \end{table}}
 
 \author{Ivan Krišto}
 
@@ -273,37 +340,133 @@ oni & \nastavak{en} & sie gehen \\
     \primjer{arbeiten}{er/sie/es arbeitet}
 \end{itemize}
 
-\begin{table}[H]
-\caption{Glagol biti}
-\begin{tabular}{ll}
-\toprule
-Hrvatski  &  Njemački \\
-\midrule
-ja sam   &   ich bin \\
-ti si/Vi ste  &  du bist / Sie sind \\
-on/ona/ono je &  er/sie/es ist \\
-mi smo  &  wir sind \\
-vi ste  &  ihr seid \\
-oni su  &  sie sind \\
-\bottomrule
-\end{tabular}
-\end{table}
+\begin{glagoltbl}{biti}
+  \ja{sam}  \ich{bin}
+  \tivi{si}{ste} \dusie{bist}{sind}
+  \ono{je}  \es{ist}
+  \mi{smo} \wir{sind}
+  \vi{ste} \ihr{seid}
+  \oni{su}  \sie{sind}
 
-\begin{table}[H]
-\caption{Glagol imati}
-\begin{tabular}{ll}
-\toprule
-Hrvatski  &  Njemački \\
-\midrule
-ja imam & ich habe \\
-ti imaš/Vi imate & du hast/Sie haben \\
-on/ona/ono ima & er/sie/es hat \\
-mi imamo & wir haben \\
-vi imate & ihr habt \\
-oni imaju & sie haben \\
-\bottomrule
-\end{tabular}
-\end{table}
+  \pja{bio}  \ich{war}
+  \ptivi{bio}{bili} \dusie{warst}{waren}
+  \pon{bio}  \es{war}
+  \pmi{bili} \wir{waren}
+  \pvi{bili} \ihr{wart}
+  \poni{bili}  \sie{waren}
+\end{glagoltbl}
+
+\begin{glagoltbl}{imati}
+  \ja{imam}  \ich{habe}
+  \tivi{imaš}{imate} \dusie{hast}{haben}
+  \ono{ima}  \es{hat}
+  \mi{imamo} \wir{haben}
+  \vi{imate} \ihr{habt}
+  \oni{imaju}  \sie{haben}
+
+  \pja{imao}  \ich{hatte}
+  \ptivi{imao}{imali} \dusie{hattest}{hatten}
+  \pon{imao}  \es{hatte}
+  \pmi{imali} \wir{hatten}
+  \pvi{imali} \ihr{hattet}
+  \poni{imali}  \sie{hatten}
+\end{glagoltbl}
+
+\begin{glagoltbl}{smjeti}
+  \ja{smijem}  \ich{darf}
+  \tivi{smiješ}{smijete} \dusie{darfst}{d\"urfen}
+  \ono{smije}  \es{darf}
+  \mi{smijemo} \wir{d\"urfen}
+  \vi{smijete} \ihr{d\"urft}
+  \oni{smiju}  \sie{d\"urfen}
+
+  \pja{smio}  \ich{durfte}
+  \ptivi{smio}{smjeli} \dusie{durftest}{durften}
+  \pon{smio}  \es{durfte}
+  \pmi{smjeli} \wir{durften}
+  \pvi{smjeli} \ihr{durftet}
+  \poni{smjeli}  \sie{durften}
+\end{glagoltbl}
+
+\begin{glagoltbl}{moći}
+  \ja{mogu}  \ich{kann}
+  \tivi{možeš}{možete} \dusie{kannst}{k\"onnen}
+  \ono{može}  \es{kann}
+  \mi{možemo} \wir{k\"onnen}
+  \vi{možete} \ihr{k\"onnt}
+  \oni{mogu}  \sie{k\"onnen}
+
+  \pja{mogao}  \ich{konnte}
+  \ptivi{mogao}{mogli} \dusie{konntest}{konnten}
+  \pon{mogao}  \es{konnte}
+  \pmi{mogli} \wir{konnten}
+  \pvi{mogli} \ihr{konntet}
+  \poni{mogli}  \sie{konnten}
+\end{glagoltbl}
+
+\begin{glagoltbl}{morati}
+  \ja{moram}  \ich{muss}
+  \tivi{moraš}{morate} \dusie{musst}{m\"ussen}
+  \ono{mora}  \es{muss}
+  \mi{moramo} \wir{m\"ussen}
+  \vi{morate} \ihr{m\"usst}
+  \oni{moraju}  \sie{m\"ussen}
+
+  \pja{morao}  \ich{musste}
+  \ptivi{morao}{morali} \dusie{musstest}{mussten}
+  \pon{morao}  \es{musste}
+  \pmi{morali} \wir{mussten}
+  \pvi{morali} \ihr{musstet}
+  \poni{morali}  \sie{mussten}
+\end{glagoltbl}
+
+\begin{glagoltbl}{trebati}
+  \ja{trebam}  \ich{soll}
+  \tivi{trebaš}{trebate} \dusie{sollst}{sollen}
+  \ono{treba}  \es{soll}
+  \mi{trebamo} \wir{sollen}
+  \vi{trebate} \ihr{sollt}
+  \oni{trebaju}  \sie{sollen}
+
+  \pja{trebao}  \ich{sollte}
+  \ptivi{trebao}{trebali} \dusie{solltest}{sollten}
+  \pon{trebao}  \es{sollte}
+  \pmi{trebali} \wir{sollten}
+  \pvi{trebali} \ihr{solltet}
+  \poni{trebali}  \sie{sollten}
+\end{glagoltbl}
+
+\begin{glagoltbl}{htjeti}
+  \ja{hoću}  \ich{will}
+  \tivi{hoćeš}{hoćete} \dusie{willst}{wollen}
+  \ono{hoće}  \es{will}
+  \mi{hoćemo} \wir{wollen}
+  \vi{hoćete} \ihr{wollt}
+  \oni{hoće}  \sie{wollen}
+
+  \pja{htio}  \ich{wollte}
+  \ptivi{htio}{htjeli} \dusie{wolltest}{wollten}
+  \pon{htio}  \es{wollte}
+  \pmi{htjeli} \wir{wollten}
+  \pvi{htjeli} \ihr{wolltet}
+  \poni{htjeli}  \sie{wollten}
+\end{glagoltbl}
+
+\begin{glagoltbl}{željeti}
+  \ja{želim}  \ich{m\"ochte}
+  \tivi{želiš}{želite} \dusie{m\"ochtest}{m\"ochten}
+  \ono{želi}  \es{m\"ochte}
+  \mi{želimo} \wir{m\"ochten}
+  \vi{želite} \ihr{m\"ochtet}
+  \oni{žele}  \sie{m\"ochten}
+
+  \pja{želim}  \ich{mochte}
+  \ptivi{želiš}{želite} \dusie{mochtest}{mochten}
+  \pon{želi}  \es{mochte}
+  \pmi{želimo} \wir{mochten}
+  \pvi{želite} \ihr{mochtet}
+  \poni{žele}  \sie{mochten}
+\end{glagoltbl}
 
 \subsection{Prošlo vrijeme}
 \begin{itemize}
@@ -327,23 +490,21 @@ Tvori se pomoću \emph{werden} i glagola u infinitivu.  Osim futura,
 \primjer{Ich werde essen.}{Ja ću jesti.} \\
 \primjer{es wird kalt.}{Postaje hladno.}
 
-\begin{table}[H]
-\begin{tabular}{ll}
-\toprule
-Hrvatski  &  Njemački \\
-\midrule
-ja ću <glagol> & ich werde <glagol u infinitivu> \\
-ti ćeš/Vi ćete & du wirst/Sie werden \\
-on/ona/ono će & er/sie/es wird \\
-mi ćemo & wir werden \\
-vi ćete & ihr werdet \\
-oni će & sie werden \\
-\bottomrule
-\end{tabular}
-\end{table}
+\begin{glagoltbl}{\emph{werden} (\glqq ja ću\grqq\ ili \glqq postati\grqq)}
+  \ja{ću}  \ich{werde}
+  \tivi{ćeš}{ćete} \dusie{wirst}{werden}
+  \ono{će}  \es{wird}
+  \mi{ćemo} \wir{werden}
+  \vi{ćete} \ihr{werdet}
+  \oni{će}  \sie{werden}
 
-\subsection{Pomoćni glagoli}
-TODO everything str 188-191
+  \pja{postao}  \ich{wurde}
+  \ptivi{postao}{postali} \dusie{wurdest}{wurden}
+  \pon{postao}  \es{wurde}
+  \pmi{postali} \wir{wurden}
+  \pvi{postali} \ihr{wurdet}
+  \poni{postali}  \sie{wurden}
+\end{glagoltbl}
 
 \section{Negacija}
 \begin{itemize}
@@ -496,34 +657,6 @@ TODO
 \end{document}
 
 % Glagol sein – konjugacija
-% Präsens
-% ich bin
-% du bist
-% er ist
-% wir sind
-% ihr seid
-% sie sind
-% Präteritum
-% ich war
-% du warst
-% er war
-% wir waren
-% ihr wart
-% sie waren
-% Perfekt
-% ich bin gewesen
-% du bist gewesen
-% er ist gewesen
-% wir sind gewesen
-% ihr seid gewesen
-% sie sind gewesen
-% Plusquamperfekt
-% ich war gewesen
-% du warst gewesen
-% er war gewesen
-% wir waren gewesen
-% ihr wart gewesen
-% sie waren gewesen
 % Futur I
 % ich werde sein
 % du wirst sein
@@ -540,13 +673,3 @@ TODO
 % sie werden gewesen sein
 % Kao glagol sa svojim punim značenjem, koristi se kod:
 % Predstavljanja, pozicija, mesto na kome se nalazimo, kao imeniski deo predikata
-
-
-%Prefiksi:
-%\begin{description}
-%  \item[Nerazdvojivi:] be-, ent-, emp-, er-, ge-, ver-, zer-
-%  \item[Razdvojivi:] an, auf, aus, bei, ein, her, hin, mit, nach, um, weg
-%% TODO: tablica str 82 everything
-%% TODO: ukloniti?
-%\end{description}
-
