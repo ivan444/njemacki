@@ -155,16 +155,19 @@ Mali broj imenica tvori množinu dodavanjem nastavka \nastavak{s} i člana \clan
 \end{tabular}
 \begin{tablenotes}
   \small
-  n-deklinacija: Imenicama u muškom rodu koje završavaju na \nastavak{e} ili
-  \nastavak{oge} dodaje se nastavak \nastavak{n}. A onima koje završavaju na
-  \nastavak{and}, \nastavak{ant}, \nastavak{ent}, \nastavak{ist}, \nastavak{at}
-  ili \nastavak{ad} dodaje se nastavak \nastavak{en}.
+  \item n-deklinacija: Imenicama u muškom rodu koje završavaju na \nastavak{e}
+    ili \nastavak{oge} dodaje se nastavak \nastavak{n}. A onima koje završavaju
+    na \nastavak{and}, \nastavak{ant}, \nastavak{ent}, \nastavak{ist},
+    \nastavak{at} ili \nastavak{ad} dodaje se nastavak \nastavak{en}.
 \end{tablenotes}
 \end{table*}
 
 \section{Zamjenice}
+% TODO: osobne, posvojne -- komplet deklinacija
+% pokazne, upitne -- popis
 \begin{table*}[htb]
 \caption{Osobne zamjenice}
+% TODO: dodati genitiv
 \begin{tabular}{ll|ll|ll}
 \toprule
   \multicolumn{2}{c}{Nominativ} & \multicolumn{2}{c}{Dativ} & \multicolumn{2}{c}{Akuzativ} \\
@@ -245,6 +248,8 @@ Ako imenica u muškom rodu ima pridjev ispred sebe, pridjevu se dodaje nastavak 
 \end{description}
 
 \section{Glagoli}
+% TODO: prošlo vrijeme, futur
+% TODO: sva vremena pod glagole, ne posebne sekcije
 \begin{table}[H]
 \caption{Konjugacija pravilnih glagola}
 \begin{tabular}{lll}
@@ -300,36 +305,24 @@ oni imaju & sie haben \\
 \end{tabular}
 \end{table}
 
-%Prefiksi:
-%\begin{description}
-%  \item[Nerazdvojivi:] be-, ent-, emp-, er-, ge-, ver-, zer-
-%  \item[Razdvojivi:] an, auf, aus, bei, ein, her, hin, mit, nach, um, weg
-%% TODO: tablica str 82 everything
-%% TODO: ukloniti?
-%\end{description}
-
-\section{Negacija}
+\subsection{Prošlo vrijeme}
 \begin{itemize}
-  \item \emph{nicht} uz glagole i \emph{kein} uz imenice.
-  \item \emph{kein} negira \emph{ein} (\emph{kein}, \emph{keine}, \emph{kein}).
-  \item Derivati negacija:
-  \begin{itemize}[nolistsep, label={}]
-      \prijevod{nein}{ne}
-      \prijevod{keinerlei}{nijedan}
-      \prijevod{keinesfalls}{nipošto}
-      \prijevod{keineswegs}{ni slučajno}
-      \prijevod{nichts}{ništa}
-      \prijevod{nie}{nikad}
-      \prijevod{niemals}{nijednom}
-      \prijevod{niemand}{nitko}
-      \prijevod{nirgendwo}{nigdje}
-      \prijevod{weder \ldots noch \ldots}{niti \ldots ni \ldots}
-  \end{itemize}
+  \item Tvori se dodavanjem nastavka \nastavak{te} na korijen riječi (kod pravilnih glagola): \\
+  \primjer{fragen}{fragte}
+  \item Ako korijen završava na \nastavak{t} ili \nastavak{d}, \nastavak{e} se dodaje prije nastavka \nastavak{te}:
+  \primjer{warten}{wartete}
+
+  \item Konjugacija slijedi pravila iz prezenta (samo što korijen ima nastavak).
 \end{itemize}
 
-\section{Futur}
-Osnova je glagol \emph{werden}.
-Osim futura, \emph{werden} može značiti ``\emph{postati}:'' \\
+\subsubsection{Prošlo svršeno vrijeme}
+Tvori se dodavanjem prefiksa \prefiks{ge} i sufiksa \nastavak{t} na korijen riječi. Koristi se uz modalni glagol \emph{haben}: \\
+\primjerTri{kaufen}{kauft}{habe gekauft} \\
+\primjerNul{Ich habe das Buch gekauft.}
+
+\subsection{Futur}
+Tvori se pomoću \emph{werden} i glagola u infinitivu.  Osim futura,
+\emph{werden} može značiti ``\emph{postati}:'' \\
 \primjer{Ich werde alt}{Ja postajem star / Ja starim} \\
 \primjer{Ich werde essen.}{Ja ću jesti.} \\
 \primjer{es wird kalt.}{Postaje hladno.}
@@ -349,23 +342,27 @@ oni će & sie werden \\
 \end{tabular}
 \end{table}
 
-\section{Prošlo vrijeme}
-\begin{itemize}
-  \item Tvori se dodavanjem nastavka \nastavak{te} na korijen riječi (kod pravilnih glagola): \\
-  \primjer{fragen}{fragte}
-  \item Ako korijen završava na \nastavak{t} ili \nastavak{d}, \nastavak{e} se dodaje prije nastavka \nastavak{te}:
-  \primjer{warten}{wartete}
-
-  \item Konjugacija slijedi pravila iz prezenta (samo što korijen ima nastavak).
-\end{itemize}
-
-\subsection{Prošlo svršeno vrijeme}
-Tvori se dodavanjem prefiksa \prefiks{ge} i sufiksa \nastavak{t} na korijen riječi. Koristi se uz modalni glagol \emph{haben}: \\
-\primjerTri{kaufen}{kauft}{habe gekauft} \\
-\primjerNul{Ich habe das Buch gekauft.}
-
-\section{Pomoćni glagoli}
+\subsection{Pomoćni glagoli}
 TODO everything str 188-191
+
+\section{Negacija}
+\begin{itemize}
+  \item \emph{nicht} uz glagole i \emph{kein} uz imenice.
+  \item \emph{kein} negira \emph{ein} (\emph{kein}, \emph{keine}, \emph{kein}).
+  \item Derivati negacija:
+  \begin{itemize}[nolistsep, label={}]
+      \prijevod{nein}{ne}
+      \prijevod{keinerlei}{nijedan}
+      \prijevod{keinesfalls}{nipošto}
+      \prijevod{keineswegs}{ni slučajno}
+      \prijevod{nichts}{ništa}
+      \prijevod{nie}{nikad}
+      \prijevod{niemals}{nijednom}
+      \prijevod{niemand}{nitko}
+      \prijevod{nirgendwo}{nigdje}
+      \prijevod{weder \ldots noch \ldots}{niti \ldots ni \ldots}
+  \end{itemize}
+\end{itemize}
 
 \section{Upitne riječi}
 \begin{itemize}[nolistsep, label={}]
@@ -543,3 +540,13 @@ TODO
 % sie werden gewesen sein
 % Kao glagol sa svojim punim značenjem, koristi se kod:
 % Predstavljanja, pozicija, mesto na kome se nalazimo, kao imeniski deo predikata
+
+
+%Prefiksi:
+%\begin{description}
+%  \item[Nerazdvojivi:] be-, ent-, emp-, er-, ge-, ver-, zer-
+%  \item[Razdvojivi:] an, auf, aus, bei, ein, her, hin, mit, nach, um, weg
+%% TODO: tablica str 82 everything
+%% TODO: ukloniti?
+%\end{description}
+
