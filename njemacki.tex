@@ -92,31 +92,50 @@
 
 \newenvironment{glagoltbl}[1]
 {%
-  \begin{table}[H]%
-    \caption{Glagol #1}}
-{%
-    \begin{tabular}{lllll}%
-    \toprule%
-      & Hrvatski  &  Njemački \\%
-    \midrule%
-    \multirow{6}{2mm}{\begin{sideways}\parbox{15mm}{Sadašnjost}\end{sideways}}%
-      & \internoja & \internoich \\%
-      & \internotivi & \internodusie \\%
-      & \internoono & \internoes \\%
-      & \internomi & \internowir \\%
-      & \internovi & \internoihr \\%
-      & \internooni & \internosie \\%
-    \midrule%
-    \multirow{6}{2mm}{\begin{sideways}\parbox{15mm}{Prošlost}\end{sideways}}%
-      & \internopja & \internopich \\%
-      & \internoptivi & \internopdusie \\%
-      & \internopon & \internopes \\%
-      & \internopmi & \internopwir \\%
-      & \internopvi & \internopihr \\%
-      & \internoponi & \internopsie \\%
-      \bottomrule%
-    \end{tabular}%
+  \begin{table}[H]
+    \caption{Glagol #1}
+}{%
+    \begin{tabular}{lll}
+    \toprule
+      & Hrvatski  &  Njemački \\
+    \midrule
+    \multirow{6}{2mm}{\begin{sideways}\parbox{15mm}{Sadašnjost}\end{sideways}}
+      & \internoja & \internoich \\
+      & \internotivi & \internodusie \\
+      & \internoono & \internoes \\
+      & \internomi & \internowir \\
+      & \internovi & \internoihr \\
+      & \internooni & \internosie \\
+    \midrule
+    \multirow{6}{2mm}{\begin{sideways}\parbox{15mm}{Prošlost}\end{sideways}}
+      & \internopja & \internopich \\
+      & \internoptivi & \internopdusie \\
+      & \internopon & \internopes \\
+      & \internopmi & \internopwir \\
+      & \internopvi & \internopihr \\
+      & \internoponi & \internopsie \\
+      \bottomrule
+    \end{tabular}
   \end{table}}
+
+\newenvironment{zamjenicetbl}[1]
+{%
+  \begin{table}[H]
+    \caption{#1 zamjenice}
+    \begin{tabular}{lll}
+    \toprule
+      & Hrvatski  &  Njemački \\
+}{%
+      \bottomrule
+    \end{tabular}
+  \end{table}}
+
+\newenvironment{zamjenicepadez}[1]
+{%
+  \midrule
+  \multirow{6}{2mm}{\begin{sideways}\parbox{20mm}{#1}\end{sideways}}
+}{%
+}
 
 \author{Ivan Krišto}
 
@@ -246,39 +265,111 @@ Mali broj imenica tvori množinu dodavanjem nastavka \nastavak{s} i člana \clan
 \section{Zamjenice}
 % TODO: osobne, posvojne -- komplet deklinacija
 % pokazne, upitne -- popis
+
+\begin{zamjenicetbl}{Osobne}
+  \zamjenicepadez{Nominativ}
+    & ja         & ich \\
+    & ti/Vi      & du/Sie \\
+    & on/ona/ono & er/sie/es \\
+    & mi         & wir \\
+    & vi         & ihr \\
+    & oni        & sie \\
+  \endzamjenicepadez
+  \zamjenicepadez{Genitiv}
+    & mene         & meiner \\
+    & tebe/Vas     & deiner/Ihrer \\
+    & njega/nje/njega & seiner/ihrer/seiner \\
+    & nas          & unser \\
+    & vas          & euer \\
+    & njih         & ihrer \\
+  \endzamjenicepadez
+  \zamjenicepadez{Dativ}
+    & sebi               & mir \\
+    & tebi/Vama          & dir/Ihnen \\
+    & njemu/njoj/njemu   & ihm/ihr/ihm \\
+    & nama               & uns \\
+    & vama               & euch \\
+    & njima              & ihnen \\
+  \endzamjenicepadez
+  \zamjenicepadez{Akuzativ}
+    & mene         & mich       \\
+    & tebe/Vas     & dich/Sie   \\
+    & njega/nju/to & ihn/sie/es \\
+    & nas          & uns        \\
+    & vas          & euch       \\
+    & njih         & sie        \\
+  \endzamjenicepadez
+\end{zamjenicetbl}
+
+\begin{zamjenicetbl}{Posvojne}
+  \zamjenicepadez{Muški rod}
+    & moj           & mein \\
+    & tvoj/Vaš      & dein/Ihr \\
+    & njegov/njezin/njegov & sein/ihr/sein \\
+    & naš           & unser \\
+    & vaš           & euer \\
+    & njihov        & ihr \\
+  \endzamjenicepadez
+  \zamjenicepadez{Ženski rod}
+    & moja         & meine \\
+    & tvoja/Vaša & deine/Ihre \\
+    & njegova/njezina/njegova & seine/ihre/seine \\
+    & naša & unsere \\
+    & vaša & euere \\
+    & njihova & ihre \\
+  \endzamjenicepadez
+  \zamjenicepadez{Srednji rod}
+    & moje   & mein \\
+    & tvoje/Vaše   & dein/Ihr \\
+    & njegovo/njezino/njegovo   & sein/ihr/sein \\
+    & naše   & unser \\
+    & vaše   & euer \\
+    & njihovo   & ihr \\
+  \endzamjenicepadez
+  \zamjenicepadez{Množina}
+    & moji/moja/moje & meine       \\
+    & tvoji/tvoja/tvoje & deine \\
+    & Vaši/Vaša/Vaše & Ihre \\
+    & njegovi/njegova/njegove & seine  \\
+    & njezini/njezina/njezine & ihre \\
+    & naši/naša/naše & unsere \\
+    & vaši/vaša/vaše & euere \\
+    & njihovi/njihova/njihove & ihre \\
+  \endzamjenicepadez
+\end{zamjenicetbl}
+
 \begin{table*}[htb]
-\caption{Osobne zamjenice}
-% TODO: dodati genitiv
-\begin{tabular}{ll|ll|ll}
+\caption{Deklinacija posvojnih zamjenica}
+\begin{tabular}{lll}
 \toprule
-  \multicolumn{2}{c}{Nominativ} & \multicolumn{2}{c}{Dativ} & \multicolumn{2}{c}{Akuzativ} \\
-\midrule
-  ja & ich & sebi & mir & mene & mich \\
-  ti/Vi & du/Sie & tebi/Vama & dir/Ihnen & tebe/Vas & dich/Sie \\
-  on/ona/ono & er/sie/es & njemu/njoj/njemu & ihm/ihr/ihm & njega/nju/to & ihn/sie/es \\
-  mi & wir & nama & uns & nas & uns \\
-  vi & ihr & vama & euch & vas & euch \\
-  oni & sie & njima & ihnen & njih & sie \\
-\bottomrule
+  & Rod/Broj & Oblik \\
+  \midrule
+  \multirow{4}{3mm}{\begin{sideways}\parbox{20mm}{Nominativ}\end{sideways}}
+  & Muški & mein Vater \\
+  & Ženski & meine Mutter \\
+  & Srednji & mein Buch \\
+  & Množina & meine B\"ucher \\
+  \midrule
+  \multirow{4}{3mm}{\begin{sideways}\parbox{15mm}{Genitiv}\end{sideways}}
+  & Muški & meines Vater\bf{s} \\
+  & Ženski & meiner Mutter \\
+  & Srednji & meines Buch\bf{es} \\
+  & Množina & meiner B\"ucher \\
+  \midrule
+  \multirow{4}{3mm}{\begin{sideways}\parbox{12mm}{Dativ}\end{sideways}}
+  & Muški & meinem Vater \\
+  & Ženski & meiner Mutter \\
+  & Srednji & meinem Buch \\
+  & Množina & meinen B\"ucher\bf{n} \\
+  \midrule
+  \multirow{4}{3mm}{\begin{sideways}\parbox{18mm}{Akuzativ}\end{sideways}}
+  & Muški & meinen Vater \\
+  & Ženski & meine Mutter \\
+  & Srednji & mein Buch \\
+  & Množina & meine B\"ucher \\
+  \bottomrule
 \end{tabular}
 \end{table*}
-
-\begin{table}[H]
-\caption{Posvojne zamjenice}
-% TODO raspisati
-\begin{tabular}{ll}
-\toprule
-Hrvatski  &  Njemački \\
-\midrule
-moj & mein \\
-tvoj/Vaš & dein/Ihr \\
-njegov/njen/njegov & sein/ihr/sein \\
-naš & unser \\
-vaš & euer \\
-njihov & ihr \\
-\bottomrule
-\end{tabular}
-\end{table}
 
 \begin{table}[H]
 \caption{Povratne zamjenice}
