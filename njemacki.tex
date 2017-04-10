@@ -23,6 +23,8 @@
 
 \captionsetup{labelsep=space,justification=justified,singlelinecheck=off}
 
+\newcommand*{\ditto}{\ldots}
+
 % Custom section: "1 | Title"
 \titleformat{\section}[block]
 {\normalfont\Large\bfseries}
@@ -39,52 +41,52 @@
 \newcommand{\prijevod}[2]{\item #1 (\emph{#2})}
 
 \newcommand{\ja}[1]{\renewcommand{\internoja}{ja #1}}
-\newcommand{\tivi}[2]{\renewcommand{\internotivi}{ti #1/Vi #2}}
+\newcommand{\ti}[1]{\renewcommand{\internoti}{ti #1}}
 \newcommand{\ono}[1]{\renewcommand{\internoono}{on/ona/ono #1}}
 \newcommand{\mi}[1]{\renewcommand{\internomi}{mi #1}}
-\newcommand{\vi}[1]{\renewcommand{\internovi}{vi #1}}
+\newcommand{\vi}[1]{\renewcommand{\internovi}{#1}}
 \newcommand{\oni}[1]{\renewcommand{\internooni}{oni #1}}
 \newcommand{\internoja}{PRAZNO!}
-\newcommand{\internotivi}{PRAZNO!}
+\newcommand{\internoti}{PRAZNO!}
 \newcommand{\internoono}{PRAZNO!}
 \newcommand{\internomi}{PRAZNO!}
 \newcommand{\internovi}{PRAZNO!}
 \newcommand{\internooni}{PRAZNO!}
 
 \newcommand{\ich}[1]{\renewcommand{\internoich}{ich #1}}
-\newcommand{\dusie}[2]{\renewcommand{\internodusie}{du #1/Sie #2}}
+\newcommand{\du}[1]{\renewcommand{\internodu}{du #1}}
 \newcommand{\es}[1]{\renewcommand{\internoes}{er/sie/es #1}}
 \newcommand{\wir}[1]{\renewcommand{\internowir}{wir #1}}
 \newcommand{\ihr}[1]{\renewcommand{\internoihr}{ihr #1}}
-\newcommand{\sie}[1]{\renewcommand{\internosie}{sie #1}}
+\newcommand{\sie}[1]{\renewcommand{\internosie}{#1}}
 \newcommand{\internoich}{PRAZNO!}
-\newcommand{\internodusie}{PRAZNO!}
+\newcommand{\internodu}{PRAZNO!}
 \newcommand{\internoes}{PRAZNO!}
 \newcommand{\internowir}{PRAZNO!}
 \newcommand{\internoihr}{PRAZNO!}
 \newcommand{\internosie}{PRAZNO!}
 
 \newcommand{\pja}[1]{\renewcommand{\internopja}{ja sam #1}}
-\newcommand{\ptivi}[2]{\renewcommand{\internoptivi}{ti si #1/Vi ste #2}}
+\newcommand{\pti}[1]{\renewcommand{\internopti}{ti si #1}}
 \newcommand{\pon}[1]{\renewcommand{\internopon}{on (ona/ono) je #1}}
 \newcommand{\pmi}[1]{\renewcommand{\internopmi}{mi smo #1}}
-\newcommand{\pvi}[1]{\renewcommand{\internopvi}{vi ste #1}}
+\newcommand{\pvi}[1]{\renewcommand{\internopvi}{ste #1}}
 \newcommand{\poni}[1]{\renewcommand{\internoponi}{oni su #1}}
 \newcommand{\internopja}{PRAZNO!}
-\newcommand{\internoptivi}{PRAZNO!}
+\newcommand{\internopti}{PRAZNO!}
 \newcommand{\internopon}{PRAZNO!}
 \newcommand{\internopmi}{PRAZNO!}
 \newcommand{\internopvi}{PRAZNO!}
 \newcommand{\internoponi}{PRAZNO!}
 
 \newcommand{\pich}[1]{\renewcommand{\internopich}{ich #1}}
-\newcommand{\pdusie}[2]{\renewcommand{\internopdusie}{du #1/Sie #2}}
+\newcommand{\pdu}[1]{\renewcommand{\internopdu}{du #1}}
 \newcommand{\pes}[1]{\renewcommand{\internopes}{er/sie/es #1}}
 \newcommand{\pwir}[1]{\renewcommand{\internopwir}{wir #1}}
 \newcommand{\pihr}[1]{\renewcommand{\internopihr}{ihr #1}}
 \newcommand{\psie}[1]{\renewcommand{\internopsie}{sie #1}}
 \newcommand{\internopich}{PRAZNO!}
-\newcommand{\internopdusie}{PRAZNO!}
+\newcommand{\internopdu}{PRAZNO!}
 \newcommand{\internopes}{PRAZNO!}
 \newcommand{\internopwir}{PRAZNO!}
 \newcommand{\internopihr}{PRAZNO!}
@@ -101,19 +103,21 @@
     \midrule
     \multirow{6}{2mm}{\begin{sideways}\parbox{15mm}{Sadašnjost}\end{sideways}}
       & \internoja & \internoich \\
-      & \internotivi & \internodusie \\
+      & \internoti & \internodu \\
+      & Vi \internovi & Sie \internosie \\
       & \internoono & \internoes \\
       & \internomi & \internowir \\
-      & \internovi & \internoihr \\
-      & \internooni & \internosie \\
+      & vi \internovi & \internoihr \\
+      & \internooni & sie \internosie \\
     \midrule
     \multirow{6}{2mm}{\begin{sideways}\parbox{15mm}{Prošlost}\end{sideways}}
       & \internopja & \internopich \\
-      & \internoptivi & \internopdusie \\
+      & \internopti & \internopdu \\
+      & Vi \internopvi & Sie \internopsie \\
       & \internopon & \internopes \\
       & \internopmi & \internopwir \\
-      & \internopvi & \internopihr \\
-      & \internoponi & \internopsie \\
+      & vi \internopvi & \internopihr \\
+      & \internoponi & sie \internopsie \\
       \bottomrule
     \end{tabular}
   \end{table}}
@@ -480,14 +484,14 @@ oni & \nastavak{en} & sie gehen \\
 
 \begin{glagoltbl}{biti}
   \ja{sam}  \ich{bin}
-  \tivi{si}{ste} \dusie{bist}{sind}
+  \ti{si} \du{bist}
   \ono{je}  \es{ist}
   \mi{smo} \wir{sind}
   \vi{ste} \ihr{seid}
   \oni{su}  \sie{sind}
 
   \pja{bio}  \pich{war}
-  \ptivi{bio}{bili} \pdusie{warst}{waren}
+  \pti{bio} \pdu{warst}
   \pon{bio}  \pes{war}
   \pmi{bili} \pwir{waren}
   \pvi{bili} \pihr{wart}
@@ -496,14 +500,14 @@ oni & \nastavak{en} & sie gehen \\
 
 \begin{glagoltbl}{imati}
   \ja{imam}  \ich{habe}
-  \tivi{imaš}{imate} \dusie{hast}{haben}
+  \ti{imaš} \du{hast}
   \ono{ima}  \es{hat}
   \mi{imamo} \wir{haben}
   \vi{imate} \ihr{habt}
   \oni{imaju}  \sie{haben}
 
   \pja{imao}  \pich{hatte}
-  \ptivi{imao}{imali} \pdusie{hattest}{hatten}
+  \pti{imao} \pdu{hattest}
   \pon{imao}  \pes{hatte}
   \pmi{imali} \pwir{hatten}
   \pvi{imali} \pihr{hattet}
@@ -512,14 +516,14 @@ oni & \nastavak{en} & sie gehen \\
 
 \begin{glagoltbl}{smjeti}
   \ja{smijem}  \ich{darf}
-  \tivi{smiješ}{smijete} \dusie{darfst}{d\"urfen}
+  \ti{smiješ} \du{darfst}
   \ono{smije}  \es{darf}
   \mi{smijemo} \wir{d\"urfen}
   \vi{smijete} \ihr{d\"urft}
   \oni{smiju}  \sie{d\"urfen}
 
   \pja{smio}  \pich{durfte}
-  \ptivi{smio}{smjeli} \pdusie{durftest}{durften}
+  \pti{smio} \pdu{durftest}
   \pon{smio}  \pes{durfte}
   \pmi{smjeli} \pwir{durften}
   \pvi{smjeli} \pihr{durftet}
@@ -528,14 +532,14 @@ oni & \nastavak{en} & sie gehen \\
 
 \begin{glagoltbl}{moći}
   \ja{mogu}  \ich{kann}
-  \tivi{možeš}{možete} \dusie{kannst}{k\"onnen}
+  \ti{možeš} \du{kannst}
   \ono{može}  \es{kann}
   \mi{možemo} \wir{k\"onnen}
   \vi{možete} \ihr{k\"onnt}
   \oni{mogu}  \sie{k\"onnen}
 
   \pja{mogao}  \pich{konnte}
-  \ptivi{mogao}{mogli} \pdusie{konntest}{konnten}
+  \pti{mogao} \pdu{konntest}
   \pon{mogao}  \pes{konnte}
   \pmi{mogli} \pwir{konnten}
   \pvi{mogli} \pihr{konntet}
@@ -544,14 +548,14 @@ oni & \nastavak{en} & sie gehen \\
 
 \begin{glagoltbl}{morati}
   \ja{moram}  \ich{muss}
-  \tivi{moraš}{morate} \dusie{musst}{m\"ussen}
+  \ti{moraš} \du{musst}
   \ono{mora}  \es{muss}
   \mi{moramo} \wir{m\"ussen}
   \vi{morate} \ihr{m\"usst}
   \oni{moraju}  \sie{m\"ussen}
 
   \pja{morao}  \pich{musste}
-  \ptivi{morao}{morali} \pdusie{musstest}{mussten}
+  \pti{morao} \pdu{musstest}
   \pon{morao}  \pes{musste}
   \pmi{morali} \pwir{mussten}
   \pvi{morali} \pihr{musstet}
@@ -560,14 +564,14 @@ oni & \nastavak{en} & sie gehen \\
 
 \begin{glagoltbl}{trebati}
   \ja{trebam}  \ich{soll}
-  \tivi{trebaš}{trebate} \dusie{sollst}{sollen}
+  \ti{trebaš} \du{sollst}
   \ono{treba}  \es{soll}
   \mi{trebamo} \wir{sollen}
   \vi{trebate} \ihr{sollt}
   \oni{trebaju}  \sie{sollen}
 
   \pja{trebao}  \pich{sollte}
-  \ptivi{trebao}{trebali} \pdusie{solltest}{sollten}
+  \pti{trebao} \pdu{solltest}
   \pon{trebao}  \pes{sollte}
   \pmi{trebali} \pwir{sollten}
   \pvi{trebali} \pihr{solltet}
@@ -576,14 +580,14 @@ oni & \nastavak{en} & sie gehen \\
 
 \begin{glagoltbl}{htjeti}
   \ja{hoću}  \ich{will}
-  \tivi{hoćeš}{hoćete} \dusie{willst}{wollen}
+  \ti{hoćeš} \du{willst}
   \ono{hoće}  \es{will}
   \mi{hoćemo} \wir{wollen}
   \vi{hoćete} \ihr{wollt}
   \oni{hoće}  \sie{wollen}
 
   \pja{htio}  \pich{wollte}
-  \ptivi{htio}{htjeli} \pdusie{wolltest}{wollten}
+  \pti{htio} \pdu{wolltest}
   \pon{htio}  \pes{wollte}
   \pmi{htjeli} \pwir{wollten}
   \pvi{htjeli} \pihr{wolltet}
@@ -592,18 +596,18 @@ oni & \nastavak{en} & sie gehen \\
 
 \begin{glagoltbl}{željeti}
   \ja{želim}  \ich{m\"ochte}
-  \tivi{želiš}{želite} \dusie{m\"ochtest}{m\"ochten}
+  \ti{želiš} \du{m\"ochtest}
   \ono{želi}  \es{m\"ochte}
   \mi{želimo} \wir{m\"ochten}
   \vi{želite} \ihr{m\"ochtet}
   \oni{žele}  \sie{m\"ochten}
 
-  \pja{želim}  \pich{mochte}
-  \ptivi{želiš}{želite} \pdusie{mochtest}{mochten}
-  \pon{želi}  \pes{mochte}
-  \pmi{želimo} \pwir{mochten}
-  \pvi{želite} \pihr{mochtet}
-  \poni{žele}  \psie{mochten}
+  \pja{želio}  \pich{mochte}
+  \pti{želio} \pdu{mochtest}
+  \pon{želio}  \pes{mochte}
+  \pmi{željeli} \pwir{mochten}
+  \pvi{željeli} \pihr{mochtet}
+  \poni{željeli}  \psie{mochten}
 \end{glagoltbl}
 
 \subsection{Prošlo vrijeme}
@@ -630,7 +634,7 @@ glagolom \emph{sein}: \\
 \primjerNul{Ich bin gefahren.}
 
 \subsection{Futur}
-Tvori se pomoću \emph{werden} i glagola u infinitivu.  Osim futura,
+Tvori se pomoću \emph{werden} i glagola u infinitivu. Osim futura,
 \emph{werden} može značiti ``\emph{postati}:'' \\
 \primjer{Ich werde alt}{Ja postajem star / Ja starim} \\
 \primjer{Ich werde essen.}{Ja ću jesti.} \\
@@ -638,18 +642,39 @@ Tvori se pomoću \emph{werden} i glagola u infinitivu.  Osim futura,
 
 \begin{glagoltbl}{\emph{werden} (\glqq ja ću\grqq\ ili \glqq postati\grqq)}
   \ja{ću}  \ich{werde}
-  \tivi{ćeš}{ćete} \dusie{wirst}{werden}
+  \ti{ćeš} \du{wirst}
   \ono{će}  \es{wird}
   \mi{ćemo} \wir{werden}
   \vi{ćete} \ihr{werdet}
   \oni{će}  \sie{werden}
 
   \pja{postao}  \pich{wurde}
-  \ptivi{postao}{postali} \pdusie{wurdest}{wurden}
+  \pti{postao} \pdu{wurdest}
   \pon{postao}  \pes{wurde}
   \pmi{postali} \pwir{wurden}
   \pvi{postali} \pihr{wurdet}
   \poni{postali}  \psie{wurden}
+\end{glagoltbl}
+
+\subsection{Pasiv}
+Tvori se pomoću \emph{werden} i participa perfekta glagola: \\
+Sadašnjost: \primjer{Das Buch wird geschrieben.}{Knjiga je napisana.} \\
+Prošlost: \primjer{Das Buch wurde geschrieben.}{Knjiga je bila napisana.}
+
+\begin{glagoltbl}{u pasivu (glagolski oblik ostaje isti -- \emph{gefragt})}
+  \ja{sam pitan}  \ich{werde gefragt}
+  \ti{si \ditto} \du{wirst \ditto}
+  \ono{je \ditto}  \es{wird \ditto}
+  \mi{smo \ditto} \wir{werden \ditto}
+  \vi{ste \ditto} \ihr{werdet \ditto}
+  \oni{su \ditto}  \sie{werden \ditto}
+
+  \pja{bio pitan}  \pich{wurde gefragt}
+  \pti{bio \ditto} \pdu{wurdest \ditto}
+  \pon{bio \ditto}  \pes{wurde \ditto}
+  \pmi{bili \ditto} \pwir{wurden \ditto}
+  \pvi{bili \ditto} \pihr{wurdet \ditto}
+  \poni{bili \ditto}  \psie{wurden \ditto}
 \end{glagoltbl}
 
 \section{Negacija}
@@ -798,6 +823,7 @@ Skraćenice:
   \end{itemize}
 \end{itemize}
 
+
 % \section{Izgovor}
 % TODO
 % Ä – dugo eeeee
@@ -826,5 +852,3 @@ Skraćenice:
 \end{multicols}
 
 \end{document}
-
-% TODO: pasiv: https://hr.wikibooks.org/wiki/Njema%C4%8Dki_jezik/Glagoli/Pasiv
