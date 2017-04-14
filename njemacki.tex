@@ -14,6 +14,7 @@
 \usepackage{multicol}
 \usepackage{multirow}
 \usepackage{rotating}
+\usepackage{ifthen}
 \usepackage{titlesec}
 \usepackage[flushleft]{threeparttable}
 \usepackage[
@@ -90,6 +91,10 @@
 \newcommand{\internopihr}{PRAZNO!}
 \newcommand{\internopsie}{PRAZNO!}
 
+\newcommand{\odvojidusie}{\renewcommand{\internoodvojenodusie}{\boolean{true}}}
+\newcommand{\spojidusie}{\renewcommand{\internoodvojenodusie}{\boolean{false}}}
+\newcommand{\internoodvojenodusie}{\boolean{false}}
+
 \newenvironment{glagoltbl}[1]
 {%
   \begin{table}[H]
@@ -101,8 +106,11 @@
     \midrule
     \multirow{6}{2mm}{\begin{sideways}\parbox{23mm}{Sadašnjost}\end{sideways}}
       & \internoja & \internoich \\
-      & \internoti & \internodu \\
-      & Vi \internovi & Sie \internosie \\
+      \ifthenelse{\internoodvojenodusie}
+        {%
+          & \internoti & \internodu \\
+          & Vi \internovi & Sie \internosie \\ }
+        {& \internoti/Vi \internovi & \internodu/Sie \internosie\\ }
       & \internoono & \internoes \\
       & \internomi & \internowir \\
       & vi \internovi & \internoihr \\
@@ -110,15 +118,20 @@
     \midrule
     \multirow{6}{2mm}{\begin{sideways}\parbox{18mm}{Prošlost}\end{sideways}}
       & \internopja & \internopich \\
-      & \internopti & \internopdu \\
-      & Vi \internopvi & Sie \internopsie \\
+      \ifthenelse{\internoodvojenodusie}
+        {%
+          & \internopti & \internopdu \\
+          & Vi \internopvi & Sie \internopsie \\ }
+        {& \internopti/Vi \internopvi & \internopdu/Sie \internopsie\\ }
       & \internopon & \internopes \\
       & \internopmi & \internopwir \\
       & vi \internopvi & \internopihr \\
       & \internoponi & sie \internopsie \\
       \bottomrule
     \end{tabular}
-  \end{table}}
+  \end{table}
+  % Vrati du/sie na standardnu postavku (spojeno).
+  \spojidusie}
 
 \newenvironment{zamjenicetbl}[1]
 {%
@@ -739,6 +752,7 @@ Prošlost: \primjer{Das Buch wurde geschrieben.}{Knjiga je bila napisana.}
   \pmi{bili pitani} \pwir{wurden gefragt}
   \pvi{bili pitani} \pihr{wurdet gefragt}
   \poni{bili pitani}  \psie{wurden gefragt}
+  \odvojidusie
 \end{glagoltbl}
 
 \begin{glagoltbl}{biti}
