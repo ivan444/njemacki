@@ -1,0 +1,647 @@
+# Njemačka gramatika pripremljena za import u Anki
+Pitanje;Odgovor
+# Određeni članovi
+Određeni član, muški rod, akuzativ;den
+Određeni član, muški rod, dativ;dem
+Određeni član, muški rod, genitiv;des
+Određeni član, muški rod, nominativ;der
+Određeni član, Ženski rod, akuzativ;die
+Određeni član, Ženski rod, dativ;der
+Određeni član, Ženski rod, genitiv;der
+Određeni član, Ženski rod, nominativ;die
+Određeni član, srednji rod, akuzativ;das
+Određeni član, srednji rod, dativ;dem
+Određeni član, srednji rod, genitiv;des
+Određeni član, srednji rod, nominativ;das
+Određeni član, množina, akuzativ;die
+Određeni član, množina, dativ;den
+Određeni član, množina, genitiv;der
+Određeni član, množina, nominativ;die
+# Neodređeni članovi
+Neodređeni član, muški rod, nominativ;ein
+Neodređeni član, muški rod, genitiv;eines
+Neodređeni član, muški rod, dativ;einem
+Neodređeni član, muški rod, akuzativ;einen
+Neodređeni član, ženski rod, nominativ;eine
+Neodređeni član, ženski rod, genitiv;einer
+Neodređeni član, ženski rod, dativ;einer
+Neodređeni član, ženski rod, akuzativ;eine
+Neodređeni član, srednji rod, nominativ;ein
+Neodređeni član, srednji rod, genitiv;eines
+Neodređeni član, srednji rod, dativ;einem
+Neodređeni član, srednji rod, akuzativ;ein
+# Najčešći završetci
+Najčešći završetci za muški rod;"-ismus, -or, -ling, -ig, -ich (uvijek); -er, -el, -en (često)"
+Najčešći završetci za ženski rod;"-in, -ung, -schaft, -ei, -tät, -heit, -keit, -ur, -ie, -ion, -ik (uvijek); -e (često)"
+Najčešći završetci za srednji rod;"-chen, -lein, -um, -tum, -ment, -ma (uvijek). Riječi sa prefiksom ge- su obično srednjeg roda."
+# Množina
+Tvorba množine, muški rod;Većina tvori množinu dodavanjem nastavka -e i člana die. Imenice koje završavaju na -er, -el, -en nemaju promjene nastavka u množini, ali se dodaje umlaut iznad samoglasnika.
+Tvorba množine, ženski rod;Većina tvori množinu dodavanjem nastavka -n, ili -en. Ako imenica završava na -in, nastavak je -nen.
+Tvorba množine, srednji rod;Imenice koje završavaju na -chen ili -lein tvore množinu zamjenom člana die.  Neke (posebno jednosložne) tvore množinu dodavanjem umlauta i nastavka -er, s članom die.
+# Deklinacija imenica
+Deklinacija imenice der Mann (jednina i množina) nominativ;der Mann, die Männer
+Deklinacija imenice der Mann (jednina i množina) genitiv;des Mann\bf{es}, der Männer
+Deklinacija imenice der Mann (jednina i množina) dativ;dem Mann, den Männern
+Deklinacija imenice der Mann (jednina i množina) akuzativ;den Mann, die Männer
+Deklinacija imenice der Junge (n-deklinacija, jednina i množina)
+Deklinacija imenice der Junge (n-deklinacija, jednina i množina) nominativ;der Junge, die Jungen
+Deklinacija imenice der Junge (n-deklinacija, jednina i množina) genitiv;des Jungen, der Jungen
+Deklinacija imenice der Junge (n-deklinacija, jednina i množina) dativ;dem Jungen, den Jungen
+Deklinacija imenice der Junge (n-deklinacija, jednina i množina) akuzativ;den Jungen, die Jungen
+Deklinacija imenice die Frau (jednina i množina) nominativ;die Frau, die Frauen
+Deklinacija imenice die Frau (jednina i množina) genitiv;der Frau, der Frauen
+Deklinacija imenice die Frau (jednina i množina) dativ;der Frau, den Frauen
+Deklinacija imenice die Frau (jednina i množina) akuzativ;die Frau, die Frauen
+Deklinacija imenice das Kind (jednina i množina) nominativ;das Kind, die Kinder
+Deklinacija imenice das Kind (jednina i množina) genitiv;des Kindes, der Kinder
+Deklinacija imenice das Kind (jednina i množina) dativ;dem Kind, den Kindern
+Deklinacija imenice das Kind (jednina i množina) akuzativ;das Kind, die Kinder
+# Pridjevi
+Tvorba komparativa;Komparativ se tvori dodavanja nastavka -er. Jednosložni pridjevi sa samoglasnicima a, o, u, u komparativu dobivaju umlaut. Ako pridjev završava na -er, ili -el, tad gubi -e u komparativu i superlativu.
+Tvorba superlativa;Superlativ se tvori se pomoću am i nastavka -sten ili -esten. Ako pridjev završava na -d, -t, -s, -ss, -ß, ili -z, tad se -e dodaje prije superlativnog nastavka -st. Ako pridjev završava na -er, ili -el, tad gubi -e u komparativu i superlativu.
+# Negacija
+Negacija glagola i imenica;nicht uz glagole i kein uz imenice (kein negira ein -- kein, keine, kein).
+nein;ne
+ne;nein
+keinerlei;nijedan
+nijedan;keinerlei
+keinesfalls;nipošto
+nipošto;keinesfalls
+keineswegs;nikako
+nikako;keineswegs
+nichts;ništa
+ništa;nichts
+nie;nikad
+nikad;nie
+niemals;nijednom
+nijednom;niemals
+niemand;nitko
+nitko;niemand
+nirgendwo;nigdje
+nigdje;nirgendwo
+weder ... noch ...;niti ... ni ...
+niti ... ni ...;weder ... noch ...
+# Upitne riječi
+biss wann;do kada
+do kada;biss wann
+mit wem;s kime
+s kime;mit wem
+von wem;od koga
+od koga;von wem
+wann;kada
+kada;wann
+warum;zašto
+zašto;warum
+was für ein / eine / ein;kakav / kakva / kakvo
+kakav / kakva / kakvo;was für ein / eine / ein
+was;što
+što;was
+welcher / welche / welches;koji / koja / koje
+koji / koja / koje;welcher / welche / welches
+wem;komu
+komu;wem
+wen;koga
+koga;wen
+wer;tko
+tko;wer
+wessen;čiji, čiju
+čiji, čiju;wessen
+wie;kako
+kako;wie
+wo;gdje
+gdje;wo
+woher;odkuda, odakle
+odkuda, odakle;woher
+wohin;kamo
+kamo;wohin
+womit;s čime
+s čime;womit
+# Prilozi
+an;do
+do;an
+auf;na
+na;auf
+hinter;iza
+iza;hinter
+in;u
+u;in
+neben;pokraj
+pokraj;neben
+über;preko, iznad
+preko, iznad;über
+unter;ispod
+ispod;unter
+vor;pred
+pred;vor
+zwischen;između
+između;zwischen
+# Skraćenice
+an das;ans
+ans (skraćeno od);an das
+an dem;am
+am (skraćeno od);an dem
+auf das;aufs
+aufs (skraćeno od);auf das
+in das;ins
+ins (skraćeno od);in das
+in dem;im
+im (skraćeno od);in dem
+von dem;vom
+vom (skraćeno od);von dem
+zu dem;zum
+zum (skraćeno od);zu dem
+zu der;zur
+zur (skraćeno od);zu der
+# Prijedlozi
+anstatt;umjesto (zahtjeva genitiv)
+umjesto;anstatt (zahtjeva genitiv)
+außerhalb;izvan (zahtjeva genitiv)
+izvan;außerhalb (zahtjeva genitiv)
+dank;zahvaljujući (zahtjeva genitiv)
+zahvaljujući;dank (zahtjeva genitiv)
+infolge;zbog, uslijed (zahtjeva genitiv)
+zbog, uslijed;infolge (zahtjeva genitiv)
+innerhalb;unutar (zahtjeva genitiv)
+unutar;innerhalb (zahtjeva genitiv)
+jenseits;s one strane (zahtjeva genitiv)
+s one strane;jenseits (zahtjeva genitiv)
+statt;umjesto (zahtjeva genitiv)
+umjesto;statt (zahtjeva genitiv)
+trotz;unatoč (zahtjeva genitiv)
+unatoč;trotz (zahtjeva genitiv)
+während;tijekom, dok (zahtjeva genitiv)
+tijekom, dok;während (zahtjeva genitiv)
+wegen;zbog (zahtjeva genitiv)
+zbog;wegen (zahtjeva genitiv)
+aus;iz, van (zantjeva dativ)
+iz, van;aus (zantjeva dativ)
+außer;usput, osim, izuzev (zantjeva dativ)
+usput, osim, izuzev;außer (zantjeva dativ)
+bei;uz, kod, pri (zantjeva dativ)
+uz, kod, pri;bei (zantjeva dativ)
+entgegen;protiv, u susret (zantjeva dativ)
+protiv, u susret;entgegen (zantjeva dativ)
+gegenüber;nasuprot, prema (zantjeva dativ)
+nasuprot, prema;gegenüber (zantjeva dativ)
+mit;sa (zantjeva dativ)
+sa;mit (zantjeva dativ)
+nach;iza, poslije, nakon, prema [mjestu] (zantjeva dativ)
+iza, poslije, nakon, prema [mjestu];nach (zantjeva dativ)
+seit;odkad / od (engl. since) (zantjeva dativ)
+odkad / od (engl. since);seit (zantjeva dativ)
+von;od (engl. from, of) (zantjeva dativ)
+od (engl. from, of);von (zantjeva dativ)
+zu;do, prema, u (zantjeva dativ)
+do, prema, u;zu (zantjeva dativ)
+bis;prema, do, dok (zahtjeva akuzativ)
+prema, do, dok;bis (zahtjeva akuzativ)
+durch;kroz, preko (zahtjeva akuzativ)
+kroz, preko;durch (zahtjeva akuzativ)
+entlang;uzduž, pokraj, pored (zahtjeva akuzativ)
+uzduž, pokraj, pored;entlang (zahtjeva akuzativ)
+für;za, umjesto (zahtjeva akuzativ)
+za, umjesto;für (zahtjeva akuzativ)
+ohne;bez (zahtjeva akuzativ)
+bez;ohne (zahtjeva akuzativ)
+um;oko, na, u (zahtjeva akuzativ)
+oko, na, u;um (zahtjeva akuzativ)
+wider, gegen;nasuprot, protiv, prema (zahtjeva akuzativ)
+nasuprot, protiv, prema;wider, gegen (zahtjeva akuzativ)
+an;na, o, od, do, po, za, uz, u (vremenski) (zahtjeva dativ ili akuzativ)
+na, o, od, do, po, za, uz, u (vremenski);an (zahtjeva dativ ili akuzativ)
+auf;na, po, za (zahtjeva dativ ili akuzativ)
+na, po, za;auf (zahtjeva dativ ili akuzativ)
+hinter;iza, za (zahtjeva dativ ili akuzativ)
+iza, za;hinter (zahtjeva dativ ili akuzativ)
+in;u, na, tokom (zahtjeva dativ ili akuzativ)
+u, na, tokom;in (zahtjeva dativ ili akuzativ)
+neben;pokraj, osim (zahtjeva dativ ili akuzativ)
+pokraj, osim;neben (zahtjeva dativ ili akuzativ)
+über;iznad, preko (zahtjeva dativ ili akuzativ)
+iznad, preko;über (zahtjeva dativ ili akuzativ)
+unter;ispod (zahtjeva dativ ili akuzativ)
+ispod;unter (zahtjeva dativ ili akuzativ)
+vor;ispred, prije (zahtjeva dativ ili akuzativ)
+ispred, prije;vor (zahtjeva dativ ili akuzativ)
+zwischen;između (zahtjeva dativ ili akuzativ)
+između;zwischen (zahtjeva dativ ili akuzativ)
+# Veznici
+aber;ali
+ali;aber
+denn;jer
+jer;denn
+oder;ili
+ili;oder
+und;i
+i;und
+als;kad
+kad;als
+dass;da
+da (veznik);dass
+weil;zbog
+zbog;weil
+wenn;ako
+ako;wenn
+
+\section{Zamjenice}
+\begin{zamjenicetbl}{Osobne}
+  \zamjenicepadez{Nominativ}
+    & ja         & ich
+    & ti / Vi      & du / Sie
+    & on / ona / ono & er / sie / es
+    & mi         & wir
+    & vi         & ihr
+    & oni        & sie
+  \endzamjenicepadez
+  \zamjenicepadez{Genitiv}
+    & mene         & meiner
+    & tebe / Vas     & deiner / Ihrer
+    & njega / nje / njega & seiner / ihrer / seiner
+    & nas          & unser
+    & vas          & euer
+    & njih         & ihrer
+  \endzamjenicepadez
+  \zamjenicepadez{Dativ}
+    & sebi             & mir
+    & tebi / Vama        & dir / Ihnen
+    & njemu / njoj / njemu & ihm / ihr / ihm
+    & nama             & uns
+    & vama             & euch
+    & njima            & ihnen
+  \endzamjenicepadez
+  \zamjenicepadez{Akuzativ}
+    & mene         & mich
+    & tebe / Vas     & dich / Sie
+    & njega / nju / to & ihn / sie / es
+    & nas          & uns
+    & vas          & euch
+    & njih         & sie
+  \endzamjenicepadez
+\end{zamjenicetbl}
+
+\begin{zamjenicetbl}{Posvojne}
+  \zamjenicepadez{Muški rod}
+    & moj           & mein
+    & tvoj / Vaš      & dein / Ihr
+    & njegov / njezin / njegov & sein / ihr / sein
+    & naš           & unser
+    & vaš           & euer
+    & njihov        & ihr
+  \endzamjenicepadez
+  \zamjenicepadez{Ženski rod}
+    & moja         & meine
+    & tvoja / Vaša & deine / Ihre
+    & njegova / njezina / njegova & seine / ihre / seine
+    & naša & unsere
+    & vaša & euere
+    & njihova & ihre
+  \endzamjenicepadez
+  \zamjenicepadez{Srednji rod}
+    & moje   & mein
+    & tvoje / Vaše   & dein / Ihr
+    & njegovo / njezino / njegovo   & sein / ihr / sein
+    & naše   & unser
+    & vaše   & euer
+    & njihovo   & ihr
+  \endzamjenicepadez
+  \zamjenicepadez{Množina}
+    & moji / moja / moje & meine
+    & tvoji / tvoja / tvoje & deine
+    & Vaši / Vaša / Vaše & Ihre
+    & njegovi / njegova / njegove & seine
+    & njezini / njezina / njezine & ihre
+    & naši / naša / naše & unsere
+    & vaši / vaša / vaše & euere
+    & njihovi / njihova / njihove & ihre
+  \endzamjenicepadez
+\end{zamjenicetbl}
+
+\begin{table}[H]
+\caption{Deklinacija posvojnih zamjenica}
+\begin{tabular}{@{} lll @{}}
+\toprule
+  & Rod / Broj & Oblik
+  \midrule
+  \multirow{4}{3mm}{\begin{sideways}\parbox{20mm}{Nominativ}\end{sideways}}
+  & Muški & mein Vater
+  & Ženski & meine Mutter
+  & Srednji & mein Buch
+  & Množina & meine Bücher
+  \midrule
+  \multirow{4}{3mm}{\begin{sideways}\parbox{15mm}{Genitiv}\end{sideways}}
+  & Muški & meines Vater\bf{s}
+  & Ženski & meiner Mutter
+  & Srednji & meines Buch\bf{es}
+  & Množina & meiner Bücher
+  \midrule
+  \multirow{4}{3mm}{\begin{sideways}\parbox{12mm}{Dativ}\end{sideways}}
+  & Muški & meinem Vater
+  & Ženski & meiner Mutter
+  & Srednji & meinem Buch
+  & Množina & meinen Bücher\bf{n}
+  \midrule
+  \multirow{4}{3mm}{\begin{sideways}\parbox{18mm}{Akuzativ}\end{sideways}}
+  & Muški & meinen Vater
+  & Ženski & meine Mutter
+  & Srednji & mein Buch
+  & Množina & meine Bücher
+  \bottomrule
+\end{tabular}
+\end{table}
+
+\begin{table}[H]
+\caption{Povratne zamjenice}
+\begin{tabular}{@{} ll @{}}
+\toprule
+Hrvatski  &  Njemački
+\midrule
+ja se & ich mich
+ti se / Vi se & du dich / Sie sich
+on / ona / ono se & er / sie / es sich
+mi se & wir uns
+vi se & ihr euch
+oni se & sie sich
+\bottomrule
+\end{tabular}
+\end{table}
+
+Pokazne zamjenice:
+\begin{itemize}[nolistsep, label={}]
+    \prijevod{dieser}{ovo}
+    \prijevod{jedermann}{svatko}
+    \prijevod{jeder}{svaki}
+    \prijevod{jemand}{netko}
+    \prijevod{jener}{koji}
+    \prijevod{mancher}{neki}
+    \prijevod{niemand}{nitko}
+    \prijevod{solcher}{kao}
+\end{itemize}
+
+\begin{table}[H]
+  \caption{Pokazna zamjenica \emph{der} (koji, čiji, komu, koga).}
+\begin{tabular}{@{} lllll @{}}
+\toprule
+Rod & Nominativ & Genitiv & Dativ & Akuzativ
+\midrule
+Muški & der & dessen & dem & den
+Ženski & die & deren & der & die
+Srednji & das & dessen & dem & das
+Množina & die & deren & denen & die
+\bottomrule
+\end{tabular}
+\end{table}
+
+\begin{table}[H]
+  \caption{Pokazna zamjenica \emph{dieser}, \emph{dieses}, \emph{diese} (taj,
+  ta, to, ovaj, ova, ovo).}
+\begin{tabular}{@{} llll @{}}
+  \toprule
+  Rod & Padež & Hrvatski & Njemački
+  \midrule
+  \multirow{4}{3mm}{\begin{sideways}\parbox{12mm}{Muški}\end{sideways}}
+  & Nominativ & ovaj, taj & dieser
+  & Genitiv & (od) ovoga, toga & dieses
+  & Dativ & ovome, tome & diesem
+  & Akuzativ & ovoga, toga & diesen
+  \midrule
+  \multirow{4}{3mm}{\begin{sideways}\parbox{12mm}{Ženski}\end{sideways}}
+  & Nominativ & ova, ta & diese
+  & Genitiv & (od) ove, te & dieser
+  & Dativ & ovoj, toj & dieser
+  & Akuzativ & ovu, tu & diese
+  \midrule
+  \multirow{4}{3mm}{\begin{sideways}\parbox{15mm}{Srednji}\end{sideways}}
+  & Nominativ & ovo, to & dieses / dies
+  & Genitiv & (od) ovoga, toga & dessen
+  & Dativ & ovome, tome & diesem
+  & Akuzativ & ovo, to & dieses / dies
+  \midrule
+  \multirow{4}{3mm}{\begin{sideways}\parbox{15mm}{Množina}\end{sideways}}
+  & Nominativ & ovi, ti & diese
+  & Genitiv & (od) ovih, tih & dieser
+  & Dativ & ovima, tima & diesen
+  & Akuzativ & ove, te & diese
+  \bottomrule
+\end{tabular}
+\end{table}
+
+\section{Glagoli}
+\begin{table}[H]
+\caption{Konjugacija pravilnih glagola}
+\begin{tabular}{@{} lll @{}}
+\toprule
+Rod   &   Nastavak  &    Primjer
+\midrule
+ja  & -e & ich gehe
+ti / Vi & -st / -en & du gehst / Sie gehen
+on / ona / ono & -t &  er / sie / es geht
+mi & -en & wir gehen
+vi & -t & ihr geht
+oni & -en & sie gehen
+\bottomrule
+\end{tabular}
+\end{table}
+
+\begin{itemize}
+  \item Infinitiv ima nastavak -n ili -en.
+  \item Ako korijen glagola završava na -t ili -d,
+    -e se dodaje prije nastavka:
+    \primjer{arbeiten}{du arbeitest}
+    \primjer{arbeiten}{er / sie / es arbeitet}
+\end{itemize}
+
+\subsection{Prošlo vrijeme}
+\begin{itemize}
+  \item Tvori se dodavanjem nastavka -te na korijen riječi (kod
+    pravilnih glagola):
+  \primjer{fragen}{fragte}
+  \item Ako korijen završava na -t ili -d, -e se
+    dodaje prije nastavka -te:
+  \primjer{warten}{wartete}
+
+  \item Konjugacija slijedi pravila iz prezenta (samo što korijen ima nastavak).
+\end{itemize}
+
+\subsubsection{Prošlo svršeno vrijeme}
+Tvori se dodavanjem prefiksa \prefiks{ge} i sufiksa -t na korijen
+riječi. Koristi se uz pomoćni glagol \emph{haben}:
+\primjerTri{kaufen}{kauft}{habe gekauft}
+\primjerNul{Ich habe das Buch gekauft.} \\ \newline
+Nepravilni glagoli najčešće imaju sufiks -en:
+\primjerNul{Ich habe gesehen.} \\ \newline
+Glagoli koji izražavaju \emph{kretanje} tvore prošlo svršeno vrijeme pomoćnim
+glagolom \emph{sein}:
+\primjerNul{Ich bin gefahren.}
+
+\subsection{Futur}
+Tvori se pomoću \emph{werden} i glagola u infinitivu. Osim futura,
+\emph{werden} može značiti ``\emph{postati}:''
+\primjer{Ich werde alt}{Ja postajem star  /  Ja starim}
+\primjer{Ich werde essen.}{Ja ću jesti.}
+\primjer{es wird kalt.}{Postaje hladno.}
+
+\begin{glagoltbl}{\emph{werden} (\glqq ja ću\grqq\ ili \glqq postati\grqq)}
+  \ja{ću}  \ich{werde}
+  \ti{ćeš} \du{wirst}
+  \ono{će}  \es{wird}
+  \mi{ćemo} \wir{werden}
+  \vi{ćete} \ihr{werdet}
+  \oni{će}  \sie{werden}
+
+  \pja{postao}  \pich{wurde}
+  \pti{postao} \pdu{wurdest}
+  \pon{postao}  \pes{wurde}
+  \pmi{postali} \pwir{wurden}
+  \pvi{postali} \pihr{wurdet}
+  \poni{postali}  \psie{wurden}
+\end{glagoltbl}
+
+\subsection{Pasiv}
+Tvori se pomoću \emph{werden} i participa perfekta glagola.
+Sadašnjost: \primjer{Das Buch wird geschrieben.}{Knjiga je napisana.}
+Prošlost: \primjer{Das Buch wurde geschrieben.}{Knjiga je bila napisana.}
+
+\begin{glagoltbl}{u pasivu}
+  \ja{sam pitan}  \ich{werde gefragt}
+  \ti{si pitan} \du{wirst gefragt}
+  \ono{je pitan}  \es{wird gefragt}
+  \mi{smo pitani} \wir{werden gefragt}
+  \vi{ste pitani} \ihr{werdet gefragt}
+  \oni{su pitani}  \sie{werden gefragt}
+
+  \pja{bio pitan}  \pich{wurde gefragt}
+  \pti{bio pitan} \pdu{wurdest gefragt}
+  \pon{bio pitan}  \pes{wurde gefragt}
+  \pmi{bili pitani} \pwir{wurden gefragt}
+  \pvi{bili pitani} \pihr{wurdet gefragt}
+  \poni{bili pitani}  \psie{wurden gefragt}
+  \odvojidusie
+\end{glagoltbl}
+
+\begin{glagoltbl}{biti}
+  \ja{sam}  \ich{bin}
+  \ti{si} \du{bist}
+  \ono{je}  \es{ist}
+  \mi{smo} \wir{sind}
+  \vi{ste} \ihr{seid}
+  \oni{su}  \sie{sind}
+
+  \pja{bio}  \pich{war}
+  \pti{bio} \pdu{warst}
+  \pon{bio}  \pes{war}
+  \pmi{bili} \pwir{waren}
+  \pvi{bili} \pihr{wart}
+  \poni{bili}  \psie{waren}
+\end{glagoltbl}
+
+\begin{glagoltbl}{imati}
+  \ja{imam}  \ich{habe}
+  \ti{imaš} \du{hast}
+  \ono{ima}  \es{hat}
+  \mi{imamo} \wir{haben}
+  \vi{imate} \ihr{habt}
+  \oni{imaju}  \sie{haben}
+
+  \pja{imao}  \pich{hatte}
+  \pti{imao} \pdu{hattest}
+  \pon{imao}  \pes{hatte}
+  \pmi{imali} \pwir{hatten}
+  \pvi{imali} \pihr{hattet}
+  \poni{imali}  \psie{hatten}
+\end{glagoltbl}
+
+\begin{glagoltbl}{smjeti}
+  \ja{smijem}  \ich{darf}
+  \ti{smiješ} \du{darfst}
+  \ono{smije}  \es{darf}
+  \mi{smijemo} \wir{dürfen}
+  \vi{smijete} \ihr{dürft}
+  \oni{smiju}  \sie{dürfen}
+
+  \pja{smio}  \pich{durfte}
+  \pti{smio} \pdu{durftest}
+  \pon{smio}  \pes{durfte}
+  \pmi{smjeli} \pwir{durften}
+  \pvi{smjeli} \pihr{durftet}
+  \poni{smjeli}  \psie{durften}
+\end{glagoltbl}
+
+\begin{glagoltbl}{moći}
+  \ja{mogu}  \ich{kann}
+  \ti{možeš} \du{kannst}
+  \ono{može}  \es{kann}
+  \mi{možemo} \wir{können}
+  \vi{možete} \ihr{könnt}
+  \oni{mogu}  \sie{können}
+
+  \pja{mogao}  \pich{konnte}
+  \pti{mogao} \pdu{konntest}
+  \pon{mogao}  \pes{konnte}
+  \pmi{mogli} \pwir{konnten}
+  \pvi{mogli} \pihr{konntet}
+  \poni{mogli}  \psie{konnten}
+\end{glagoltbl}
+
+\begin{glagoltbl}{morati}
+  \ja{moram}  \ich{muss}
+  \ti{moraš} \du{musst}
+  \ono{mora}  \es{muss}
+  \mi{moramo} \wir{müssen}
+  \vi{morate} \ihr{müsst}
+  \oni{moraju}  \sie{müssen}
+
+  \pja{morao}  \pich{musste}
+  \pti{morao} \pdu{musstest}
+  \pon{morao}  \pes{musste}
+  \pmi{morali} \pwir{mussten}
+  \pvi{morali} \pihr{musstet}
+  \poni{morali}  \psie{mussten}
+\end{glagoltbl}
+
+\begin{glagoltbl}{trebati}
+  \ja{trebam}  \ich{soll}
+  \ti{trebaš} \du{sollst}
+  \ono{treba}  \es{soll}
+  \mi{trebamo} \wir{sollen}
+  \vi{trebate} \ihr{sollt}
+  \oni{trebaju}  \sie{sollen}
+
+  \pja{trebao}  \pich{sollte}
+  \pti{trebao} \pdu{solltest}
+  \pon{trebao}  \pes{sollte}
+  \pmi{trebali} \pwir{sollten}
+  \pvi{trebali} \pihr{solltet}
+  \poni{trebali}  \psie{sollten}
+\end{glagoltbl}
+
+\begin{glagoltbl}{htjeti}
+  \ja{hoću}  \ich{will}
+  \ti{hoćeš} \du{willst}
+  \ono{hoće}  \es{will}
+  \mi{hoćemo} \wir{wollen}
+  \vi{hoćete} \ihr{wollt}
+  \oni{hoće}  \sie{wollen}
+
+  \pja{htio}  \pich{wollte}
+  \pti{htio} \pdu{wolltest}
+  \pon{htio}  \pes{wollte}
+  \pmi{htjeli} \pwir{wollten}
+  \pvi{htjeli} \pihr{wolltet}
+  \poni{htjeli}  \psie{wollten}
+\end{glagoltbl}
+
+\begin{glagoltbl}{željeti}
+  \ja{želim}  \ich{möchte}
+  \ti{želiš} \du{möchtest}
+  \ono{želi}  \es{möchte}
+  \mi{želimo} \wir{möchten}
+  \vi{želite} \ihr{möchtet}
+  \oni{žele}  \sie{möchten}
+
+  \pja{želio}  \pich{mochte}
+  \pti{želio} \pdu{mochtest}
+  \pon{želio}  \pes{mochte}
+  \pmi{željeli} \pwir{mochten}
+  \pvi{željeli} \pihr{mochtet}
+  \poni{željeli}  \psie{mochten}
+\end{glagoltbl}
