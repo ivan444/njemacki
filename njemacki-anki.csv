@@ -40,7 +40,7 @@ Tvorba množine, ženski rod;Većina tvori množinu dodavanjem nastavka -n, ili 
 Tvorba množine, srednji rod;Imenice koje završavaju na -chen ili -lein tvore množinu zamjenom člana die.  Neke (posebno jednosložne) tvore množinu dodavanjem umlauta i nastavka -er, s članom die.
 # Deklinacija imenica
 Deklinacija imenice der Mann (jednina i množina) nominativ;der Mann, die Männer
-Deklinacija imenice der Mann (jednina i množina) genitiv;des Mann\bf{es}, der Männer
+Deklinacija imenice der Mann (jednina i množina) genitiv;des Mannes, der Männer
 Deklinacija imenice der Mann (jednina i množina) dativ;dem Mann, den Männern
 Deklinacija imenice der Mann (jednina i množina) akuzativ;den Mann, die Männer
 Deklinacija imenice der Junge (n-deklinacija, jednina i množina)
@@ -242,167 +242,173 @@ weil;zbog
 zbog;weil
 wenn;ako
 ako;wenn
-
-\section{Zamjenice}
-\begin{zamjenicetbl}{Osobne}
-  \zamjenicepadez{Nominativ}
-    & ja         & ich
-    & ti / Vi      & du / Sie
-    & on / ona / ono & er / sie / es
-    & mi         & wir
-    & vi         & ihr
-    & oni        & sie
-  \endzamjenicepadez
-  \zamjenicepadez{Genitiv}
-    & mene         & meiner
-    & tebe / Vas     & deiner / Ihrer
-    & njega / nje / njega & seiner / ihrer / seiner
-    & nas          & unser
-    & vas          & euer
-    & njih         & ihrer
-  \endzamjenicepadez
-  \zamjenicepadez{Dativ}
-    & sebi             & mir
-    & tebi / Vama        & dir / Ihnen
-    & njemu / njoj / njemu & ihm / ihr / ihm
-    & nama             & uns
-    & vama             & euch
-    & njima            & ihnen
-  \endzamjenicepadez
-  \zamjenicepadez{Akuzativ}
-    & mene         & mich
-    & tebe / Vas     & dich / Sie
-    & njega / nju / to & ihn / sie / es
-    & nas          & uns
-    & vas          & euch
-    & njih         & sie
-  \endzamjenicepadez
-\end{zamjenicetbl}
-
-\begin{zamjenicetbl}{Posvojne}
-  \zamjenicepadez{Muški rod}
-    & moj           & mein
-    & tvoj / Vaš      & dein / Ihr
-    & njegov / njezin / njegov & sein / ihr / sein
-    & naš           & unser
-    & vaš           & euer
-    & njihov        & ihr
-  \endzamjenicepadez
-  \zamjenicepadez{Ženski rod}
-    & moja         & meine
-    & tvoja / Vaša & deine / Ihre
-    & njegova / njezina / njegova & seine / ihre / seine
-    & naša & unsere
-    & vaša & euere
-    & njihova & ihre
-  \endzamjenicepadez
-  \zamjenicepadez{Srednji rod}
-    & moje   & mein
-    & tvoje / Vaše   & dein / Ihr
-    & njegovo / njezino / njegovo   & sein / ihr / sein
-    & naše   & unser
-    & vaše   & euer
-    & njihovo   & ihr
-  \endzamjenicepadez
-  \zamjenicepadez{Množina}
-    & moji / moja / moje & meine
-    & tvoji / tvoja / tvoje & deine
-    & Vaši / Vaša / Vaše & Ihre
-    & njegovi / njegova / njegove & seine
-    & njezini / njezina / njezine & ihre
-    & naši / naša / naše & unsere
-    & vaši / vaša / vaše & euere
-    & njihovi / njihova / njihove & ihre
-  \endzamjenicepadez
-\end{zamjenicetbl}
-
-\begin{table}[H]
-\caption{Deklinacija posvojnih zamjenica}
-\begin{tabular}{@{} lll @{}}
-\toprule
-  & Rod / Broj & Oblik
-  \midrule
-  \multirow{4}{3mm}{\begin{sideways}\parbox{20mm}{Nominativ}\end{sideways}}
-  & Muški & mein Vater
-  & Ženski & meine Mutter
-  & Srednji & mein Buch
-  & Množina & meine Bücher
-  \midrule
-  \multirow{4}{3mm}{\begin{sideways}\parbox{15mm}{Genitiv}\end{sideways}}
-  & Muški & meines Vater\bf{s}
-  & Ženski & meiner Mutter
-  & Srednji & meines Buch\bf{es}
-  & Množina & meiner Bücher
-  \midrule
-  \multirow{4}{3mm}{\begin{sideways}\parbox{12mm}{Dativ}\end{sideways}}
-  & Muški & meinem Vater
-  & Ženski & meiner Mutter
-  & Srednji & meinem Buch
-  & Množina & meinen Bücher\bf{n}
-  \midrule
-  \multirow{4}{3mm}{\begin{sideways}\parbox{18mm}{Akuzativ}\end{sideways}}
-  & Muški & meinen Vater
-  & Ženski & meine Mutter
-  & Srednji & mein Buch
-  & Množina & meine Bücher
-  \bottomrule
-\end{tabular}
-\end{table}
-
-\begin{table}[H]
-\caption{Povratne zamjenice}
-\begin{tabular}{@{} ll @{}}
-\toprule
-Hrvatski  &  Njemački
-\midrule
-ja se & ich mich
-ti se / Vi se & du dich / Sie sich
-on / ona / ono se & er / sie / es sich
-mi se & wir uns
-vi se & ihr euch
-oni se & sie sich
-\bottomrule
-\end{tabular}
-\end{table}
-
-Pokazne zamjenice:
-\begin{itemize}[nolistsep, label={}]
-    \prijevod{dieser}{ovo}
-    \prijevod{jedermann}{svatko}
-    \prijevod{jeder}{svaki}
-    \prijevod{jemand}{netko}
-    \prijevod{jener}{koji}
-    \prijevod{mancher}{neki}
-    \prijevod{niemand}{nitko}
-    \prijevod{solcher}{kao}
-\end{itemize}
-
-\begin{table}[H]
-  \caption{Pokazna zamjenica \emph{der} (koji, čiji, komu, koga).}
-\begin{tabular}{@{} lllll @{}}
-\toprule
-Rod & Nominativ & Genitiv & Dativ & Akuzativ
-\midrule
-Muški & der & dessen & dem & den
-Ženski & die & deren & der & die
-Srednji & das & dessen & dem & das
-Množina & die & deren & denen & die
-\bottomrule
-\end{tabular}
-\end{table}
-
-\begin{table}[H]
-  \caption{Pokazna zamjenica \emph{dieser}, \emph{dieses}, \emph{diese} (taj,
-  ta, to, ovaj, ova, ovo).}
-\begin{tabular}{@{} llll @{}}
-  \toprule
-  Rod & Padež & Hrvatski & Njemački
-  \midrule
-  \multirow{4}{3mm}{\begin{sideways}\parbox{12mm}{Muški}\end{sideways}}
-  & Nominativ & ovaj, taj & dieser
-  & Genitiv & (od) ovoga, toga & dieses
-  & Dativ & ovome, tome & diesem
-  & Akuzativ & ovoga, toga & diesen
+# Osobne zamjenice
+ja;ich
+ich;ja
+ti / Vi;du / Sie
+du / Sie;ti / Vi
+on / ona / ono;er / sie / es
+er / sie / es;on / ona / ono
+mi;wir
+wir;mi
+vi;ihr
+sie;oni
+oni;sie
+meiner;mene
+mene;meiner
+tebe / Vas;deiner / Ihrer
+deiner / Ihrer;tebe / Vas
+njega / nje / njega;seiner / ihrer / seiner
+seiner / ihrer / seiner;njega / nje / njega
+nas;unser
+unser;nas
+vas;euer
+ihrer;njih
+njih;ihrer
+sebi;mir
+dir / Ihnen;tebi / Vama
+tebi / Vama;dir / Ihnen
+njemu / njoj / njemu;ihm / ihr / ihm
+ihm / ihr / ihm;njemu / njoj / njemu
+nama;uns
+uns;nama
+vama;euch
+euch;vama
+njima;ihnen
+ihnen;njima
+mene;mich
+mich;mene
+tebe / Vas;dich / Sie
+dich / Sie;tebe / Vas
+njega / nju / to;ihn / sie / es
+ihn / sie / es;njega / nju / to
+nas;uns
+uns;nas
+vas;euch
+euch;vas
+njih;sie
+sie;njih
+# Posvojne zamjenice
+moj;mein
+mein;moj
+tvoj / Vaš;dein / Ihr
+dein / Ihr;tvoj / Vaš
+njegov / njezin / njegov;sein / ihr / sein
+sein / ihr / sein;njegov / njezin / njegov
+naš;unser
+unser;naš
+vaš;euer
+euer;vaš
+njihov;ihr
+ihr;njihov
+moja;meine
+meine;moja
+tvoja / Vaša;deine / Ihre
+deine / Ihre;tvoja / Vaša
+njegova / njezina / njegova;seine / ihre / seine
+seine / ihre / seine;njegova / njezina / njegova
+naša;unsere
+unsere;naša
+vaša;euere
+euere;vaša
+njihova;ihre
+ihre;njihova
+moje;mein
+mein;moje
+tvoje / Vaše;dein / Ihr
+dein / Ihr;tvoje / Vaše
+njegovo / njezino / njegovo;sein / ihr / sein
+sein / ihr / sein;njegovo / njezino / njegovo
+naše;unser
+unser;naše
+vaše;euer
+euer;vaše
+njihovo;ihr
+ihr;njihovo
+moji / moja / moje;meine
+meine;moji / moja / moje
+tvoji / tvoja / tvoje;deine
+deine;tvoji / tvoja / tvoje
+Vaši / Vaša / Vaše;Ihre
+Ihre;Vaši / Vaša / Vaše
+njegovi / njegova / njegove;seine
+seine;njegovi / njegova / njegove
+njezini / njezina / njezine;ihre
+ihre;njezini / njezina / njezine
+naši / naša / naše;unsere
+unsere;naši / naša / naše
+vaši / vaša / vaše;euere
+euere;vaši / vaša / vaše
+njihovi / njihova / njihove;ihre
+ihre;njihovi / njihova / njihove
+# Deklinacija posvojnih zamjenica
+moj otac;mein Vater
+mein Vater;moj otac
+moja majka;meine Mutter
+meine Mutter;moja majka
+moja knjiga;mein Buch
+mein Buch;moja knjiga
+moje knjige;meine Bücher
+meine Bücher;moje knjige
+moga oca (genitiv);meines Vaters
+meines Vaters;moga oca (genitiv)
+moje majke (genitiv);meiner Mutter
+meiner Mutter;moje majke (genitiv)
+moje knjige (genitiv);meines Buches
+meines Buches;moje knjige (genitiv)
+mojih knjiga (genitiv);meiner Bücher
+meiner Bücher;mojih knjiga (genitiv)
+mom ocu (dativ);meinem Vater
+meinem Vater;mom ocu (dativ)
+mojoj majki (dativ);meiner Mutter
+meiner Mutter;mojoj majki (dativ)
+mojoj knjizi (dativ);meinem Buch
+meinem Buch;mojoj knjizi (dativ)
+mojim knjigama (dativ);meinen Büchern
+meinen Büchern;mojim knjigama (dativ)
+moga oca (akuzativ);meinen Vater
+meinen Vater;moga oca (akuzativ)
+moju majku (akuzativ);meine Mutter
+meine Mutter;moju majku (akuzativ)
+moju knjigu (akuzativ);mein Buch
+mein Buch;moju knjigu (akuzativ)
+moje knjige (akuzativ);meine Bücher
+meine Bücher;moje knjige (akuzativ)
+# Povratne zamjenice
+ja se;ich mich
+ich mich;ja se
+ti se / Vi se;du dich / Sie sich
+du dich / Sie sich;ti se / Vi se
+on / ona / ono se;er / sie / es sich
+er / sie / es sich;on / ona / ono se
+mi se;wir uns
+wir uns;mi se
+vi se;ihr euch
+ihr euch;vi se
+oni se;sie sich
+sie sich;oni se
+# Pokazne zamjenice
+dieser;ovo
+ovo;dieser
+jedermann;svatko
+svatko;jedermann
+jeder;svaki
+svaki;jeder
+jemand;netko
+netko;jemand
+jener;koji
+koji;jener
+mancher;neki
+neki;mancher
+niemand;nitko
+nitko;niemand
+solcher;kao
+kao;solcher
+# Pokazna zamjenica dieser, dieses, diese (taj, ta, to, ovaj, ova, ovo).}
+Nominativ & ovaj, taj & dieser
+Genitiv & (od) ovoga, toga & dieses
+Dativ & ovome, tome & diesem
+Akuzativ & ovoga, toga & diesen
   \midrule
   \multirow{4}{3mm}{\begin{sideways}\parbox{12mm}{Ženski}\end{sideways}}
   & Nominativ & ova, ta & diese
