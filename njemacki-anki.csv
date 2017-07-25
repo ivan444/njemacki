@@ -43,7 +43,6 @@ Deklinacija imenice der Mann (jednina i množina) nominativ;der Mann, die Männe
 Deklinacija imenice der Mann (jednina i množina) genitiv;des Mannes, der Männer
 Deklinacija imenice der Mann (jednina i množina) dativ;dem Mann, den Männern
 Deklinacija imenice der Mann (jednina i množina) akuzativ;den Mann, die Männer
-Deklinacija imenice der Junge (n-deklinacija, jednina i množina)
 Deklinacija imenice der Junge (n-deklinacija, jednina i množina) nominativ;der Junge, die Jungen
 Deklinacija imenice der Junge (n-deklinacija, jednina i množina) genitiv;des Jungen, der Jungen
 Deklinacija imenice der Junge (n-deklinacija, jednina i množina) dativ;dem Jungen, den Jungen
@@ -400,254 +399,298 @@ jener;koji
 koji;jener
 mancher;neki
 neki;mancher
-niemand;nitko
-nitko;niemand
 solcher;kao
 kao;solcher
 # Pokazna zamjenica dieser, dieses, diese (taj, ta, to, ovaj, ova, ovo).}
-Nominativ & ovaj, taj & dieser
-Genitiv & (od) ovoga, toga & dieses
-Dativ & ovome, tome & diesem
-Akuzativ & ovoga, toga & diesen
-  \midrule
-  \multirow{4}{3mm}{\begin{sideways}\parbox{12mm}{Ženski}\end{sideways}}
-  & Nominativ & ova, ta & diese
-  & Genitiv & (od) ove, te & dieser
-  & Dativ & ovoj, toj & dieser
-  & Akuzativ & ovu, tu & diese
-  \midrule
-  \multirow{4}{3mm}{\begin{sideways}\parbox{15mm}{Srednji}\end{sideways}}
-  & Nominativ & ovo, to & dieses / dies
-  & Genitiv & (od) ovoga, toga & dessen
-  & Dativ & ovome, tome & diesem
-  & Akuzativ & ovo, to & dieses / dies
-  \midrule
-  \multirow{4}{3mm}{\begin{sideways}\parbox{15mm}{Množina}\end{sideways}}
-  & Nominativ & ovi, ti & diese
-  & Genitiv & (od) ovih, tih & dieser
-  & Dativ & ovima, tima & diesen
-  & Akuzativ & ove, te & diese
-  \bottomrule
-\end{tabular}
-\end{table}
-
-\section{Glagoli}
-\begin{table}[H]
-\caption{Konjugacija pravilnih glagola}
-\begin{tabular}{@{} lll @{}}
-\toprule
-Rod   &   Nastavak  &    Primjer
-\midrule
-ja  & -e & ich gehe
-ti / Vi & -st / -en & du gehst / Sie gehen
-on / ona / ono & -t &  er / sie / es geht
-mi & -en & wir gehen
-vi & -t & ihr geht
-oni & -en & sie gehen
-\bottomrule
-\end{tabular}
-\end{table}
-
-\begin{itemize}
-  \item Infinitiv ima nastavak -n ili -en.
-  \item Ako korijen glagola završava na -t ili -d,
-    -e se dodaje prije nastavka:
-    \primjer{arbeiten}{du arbeitest}
-    \primjer{arbeiten}{er / sie / es arbeitet}
-\end{itemize}
-
-\subsection{Prošlo vrijeme}
-\begin{itemize}
-  \item Tvori se dodavanjem nastavka -te na korijen riječi (kod
-    pravilnih glagola):
-  \primjer{fragen}{fragte}
-  \item Ako korijen završava na -t ili -d, -e se
-    dodaje prije nastavka -te:
-  \primjer{warten}{wartete}
-
-  \item Konjugacija slijedi pravila iz prezenta (samo što korijen ima nastavak).
-\end{itemize}
-
-\subsubsection{Prošlo svršeno vrijeme}
-Tvori se dodavanjem prefiksa \prefiks{ge} i sufiksa -t na korijen
-riječi. Koristi se uz pomoćni glagol \emph{haben}:
-\primjerTri{kaufen}{kauft}{habe gekauft}
-\primjerNul{Ich habe das Buch gekauft.} \\ \newline
-Nepravilni glagoli najčešće imaju sufiks -en:
-\primjerNul{Ich habe gesehen.} \\ \newline
-Glagoli koji izražavaju \emph{kretanje} tvore prošlo svršeno vrijeme pomoćnim
-glagolom \emph{sein}:
-\primjerNul{Ich bin gefahren.}
-
-\subsection{Futur}
-Tvori se pomoću \emph{werden} i glagola u infinitivu. Osim futura,
-\emph{werden} može značiti ``\emph{postati}:''
-\primjer{Ich werde alt}{Ja postajem star  /  Ja starim}
-\primjer{Ich werde essen.}{Ja ću jesti.}
-\primjer{es wird kalt.}{Postaje hladno.}
-
-\begin{glagoltbl}{\emph{werden} (\glqq ja ću\grqq\ ili \glqq postati\grqq)}
-  \ja{ću}  \ich{werde}
-  \ti{ćeš} \du{wirst}
-  \ono{će}  \es{wird}
-  \mi{ćemo} \wir{werden}
-  \vi{ćete} \ihr{werdet}
-  \oni{će}  \sie{werden}
-
-  \pja{postao}  \pich{wurde}
-  \pti{postao} \pdu{wurdest}
-  \pon{postao}  \pes{wurde}
-  \pmi{postali} \pwir{wurden}
-  \pvi{postali} \pihr{wurdet}
-  \poni{postali}  \psie{wurden}
-\end{glagoltbl}
-
-\subsection{Pasiv}
-Tvori se pomoću \emph{werden} i participa perfekta glagola.
-Sadašnjost: \primjer{Das Buch wird geschrieben.}{Knjiga je napisana.}
-Prošlost: \primjer{Das Buch wurde geschrieben.}{Knjiga je bila napisana.}
-
-\begin{glagoltbl}{u pasivu}
-  \ja{sam pitan}  \ich{werde gefragt}
-  \ti{si pitan} \du{wirst gefragt}
-  \ono{je pitan}  \es{wird gefragt}
-  \mi{smo pitani} \wir{werden gefragt}
-  \vi{ste pitani} \ihr{werdet gefragt}
-  \oni{su pitani}  \sie{werden gefragt}
-
-  \pja{bio pitan}  \pich{wurde gefragt}
-  \pti{bio pitan} \pdu{wurdest gefragt}
-  \pon{bio pitan}  \pes{wurde gefragt}
-  \pmi{bili pitani} \pwir{wurden gefragt}
-  \pvi{bili pitani} \pihr{wurdet gefragt}
-  \poni{bili pitani}  \psie{wurden gefragt}
-  \odvojidusie
-\end{glagoltbl}
-
-\begin{glagoltbl}{biti}
-  \ja{sam}  \ich{bin}
-  \ti{si} \du{bist}
-  \ono{je}  \es{ist}
-  \mi{smo} \wir{sind}
-  \vi{ste} \ihr{seid}
-  \oni{su}  \sie{sind}
-
-  \pja{bio}  \pich{war}
-  \pti{bio} \pdu{warst}
-  \pon{bio}  \pes{war}
-  \pmi{bili} \pwir{waren}
-  \pvi{bili} \pihr{wart}
-  \poni{bili}  \psie{waren}
-\end{glagoltbl}
-
-\begin{glagoltbl}{imati}
-  \ja{imam}  \ich{habe}
-  \ti{imaš} \du{hast}
-  \ono{ima}  \es{hat}
-  \mi{imamo} \wir{haben}
-  \vi{imate} \ihr{habt}
-  \oni{imaju}  \sie{haben}
-
-  \pja{imao}  \pich{hatte}
-  \pti{imao} \pdu{hattest}
-  \pon{imao}  \pes{hatte}
-  \pmi{imali} \pwir{hatten}
-  \pvi{imali} \pihr{hattet}
-  \poni{imali}  \psie{hatten}
-\end{glagoltbl}
-
-\begin{glagoltbl}{smjeti}
-  \ja{smijem}  \ich{darf}
-  \ti{smiješ} \du{darfst}
-  \ono{smije}  \es{darf}
-  \mi{smijemo} \wir{dürfen}
-  \vi{smijete} \ihr{dürft}
-  \oni{smiju}  \sie{dürfen}
-
-  \pja{smio}  \pich{durfte}
-  \pti{smio} \pdu{durftest}
-  \pon{smio}  \pes{durfte}
-  \pmi{smjeli} \pwir{durften}
-  \pvi{smjeli} \pihr{durftet}
-  \poni{smjeli}  \psie{durften}
-\end{glagoltbl}
-
-\begin{glagoltbl}{moći}
-  \ja{mogu}  \ich{kann}
-  \ti{možeš} \du{kannst}
-  \ono{može}  \es{kann}
-  \mi{možemo} \wir{können}
-  \vi{možete} \ihr{könnt}
-  \oni{mogu}  \sie{können}
-
-  \pja{mogao}  \pich{konnte}
-  \pti{mogao} \pdu{konntest}
-  \pon{mogao}  \pes{konnte}
-  \pmi{mogli} \pwir{konnten}
-  \pvi{mogli} \pihr{konntet}
-  \poni{mogli}  \psie{konnten}
-\end{glagoltbl}
-
-\begin{glagoltbl}{morati}
-  \ja{moram}  \ich{muss}
-  \ti{moraš} \du{musst}
-  \ono{mora}  \es{muss}
-  \mi{moramo} \wir{müssen}
-  \vi{morate} \ihr{müsst}
-  \oni{moraju}  \sie{müssen}
-
-  \pja{morao}  \pich{musste}
-  \pti{morao} \pdu{musstest}
-  \pon{morao}  \pes{musste}
-  \pmi{morali} \pwir{mussten}
-  \pvi{morali} \pihr{musstet}
-  \poni{morali}  \psie{mussten}
-\end{glagoltbl}
-
-\begin{glagoltbl}{trebati}
-  \ja{trebam}  \ich{soll}
-  \ti{trebaš} \du{sollst}
-  \ono{treba}  \es{soll}
-  \mi{trebamo} \wir{sollen}
-  \vi{trebate} \ihr{sollt}
-  \oni{trebaju}  \sie{sollen}
-
-  \pja{trebao}  \pich{sollte}
-  \pti{trebao} \pdu{solltest}
-  \pon{trebao}  \pes{sollte}
-  \pmi{trebali} \pwir{sollten}
-  \pvi{trebali} \pihr{solltet}
-  \poni{trebali}  \psie{sollten}
-\end{glagoltbl}
-
-\begin{glagoltbl}{htjeti}
-  \ja{hoću}  \ich{will}
-  \ti{hoćeš} \du{willst}
-  \ono{hoće}  \es{will}
-  \mi{hoćemo} \wir{wollen}
-  \vi{hoćete} \ihr{wollt}
-  \oni{hoće}  \sie{wollen}
-
-  \pja{htio}  \pich{wollte}
-  \pti{htio} \pdu{wolltest}
-  \pon{htio}  \pes{wollte}
-  \pmi{htjeli} \pwir{wollten}
-  \pvi{htjeli} \pihr{wolltet}
-  \poni{htjeli}  \psie{wollten}
-\end{glagoltbl}
-
-\begin{glagoltbl}{željeti}
-  \ja{želim}  \ich{möchte}
-  \ti{želiš} \du{möchtest}
-  \ono{želi}  \es{möchte}
-  \mi{želimo} \wir{möchten}
-  \vi{želite} \ihr{möchtet}
-  \oni{žele}  \sie{möchten}
-
-  \pja{želio}  \pich{mochte}
-  \pti{želio} \pdu{mochtest}
-  \pon{želio}  \pes{mochte}
-  \pmi{željeli} \pwir{mochten}
-  \pvi{željeli} \pihr{mochtet}
-  \poni{željeli}  \psie{mochten}
-\end{glagoltbl}
+ovaj, taj;dieser (Nominativ)
+dieser (Nominativ);ovaj, taj
+(od) ovoga, toga;dieses (Genitiv)
+dieses (Genitiv);(od) ovoga, toga
+ovome, tome;diesem (Dativ)
+diesem (Dativ);ovome, tome
+ovoga, toga;diesen (Akuzativ)
+diesen (Akuzativ);ovoga, toga
+ova, ta;diese (Nominativ)
+diese (Nominativ);ova, ta
+(od) ove, te;dieser (Genitiv)
+dieser (Genitiv);(od) ove, te
+ovoj, toj;dieser (Dativ)
+dieser (Dativ);ovoj, toj
+ovu, tu;diese (Akuzativ)
+diese (Akuzativ);ovu, tu
+ovo, to;dieses / dies (Nominativ)
+dieses / dies (Nominativ);ovo, to
+(od) ovoga, toga;dessen (Genitiv)
+dessen (Genitiv);(od) ovoga, toga
+ovome, tome;diesem (Dativ)
+diesem (Dativ);ovome, tome
+ovo, to;dieses / dies (Akuzativ)
+dieses / dies (Akuzativ);ovo, to
+ovi, ti;diese (Nominativ)
+diese (Nominativ);ovi, ti
+(od) ovih, tih;dieser (Genitiv)
+dieser (Genitiv);(od) ovih, tih
+ovima, tima;diesen (Dativ)
+diesen (Dativ);ovima, tima
+ove, te;diese (Akuzativ)
+diese (Akuzativ);ove, te
+# Glagoli
+ja idem;ich gehe (nastavak: -e)
+ti ideš / Vi idete;du gehst / Sie gehen (nastavak: -st / -en)
+on / ona / ono ide;er / sie / es geht (nastavak: -t)
+mi idemo;wir gehen (nastavak: -en)
+vi idete;ihr geht (nastavak: -t)
+oni idu;sie gehen (nastavak: -en)
+# Prošlo vrijeme
+Tvorba prošlog vremena;Tvori se dodavanjem nastavka -te na korijen riječi (kod pravilnih glagola). Ako korijen završava na -t ili -d, -e se dodaje prije nastavka -te. Konjugacija slijedi pravila iz prezenta (samo što korijen ima nastavak).
+# Prošlo svršeno vrijeme
+Tvorba prošlog svršenog vremena; "Tvori se dodavanjem prefiksa ge- i sufiksa -t na korjen riječi. Koristi se uz pomoćni glagol haben: Ich have gekauft.
+Glagoli koji izražavaju kretanje tvore prošlo svršeno vrijeme pomoćnim glagolom sein: Ich bin gefahren."
+# Futur
+Tvorba futura;
+Tvori se pomoću werden i glagola u infinitivu. Osim futura, werden može značiti postati: Ich werde essen -- Ja ću jesti.
+# Glagol werden
+ja ću;ich werde
+ich werde;ja ću
+ti ćeš;du wirst
+du wirst;ti ćeš
+ono će;es wird
+es wird;ono će
+mi ćemo;wir werden
+wir werden;mi ćemo
+vi ćete;ihr werdet
+ihr werdet;vi ćete
+oni će;sie werden
+sie werden;oni će
+ja sam postao;ich wurde
+ich wurde;ja sam postao
+ti si postao;du wurdest
+du wurdest;ti si postao
+on je postao;es wurde
+es wurde;on je postao
+mi smo postali;wir wurden
+wir wurden;mi smo postali
+vi ste postali;ihr wurdet
+ihr wurdet;vi ste postali
+oni su postali;sie wurden
+sie wurden;oni su postali
+# Pasiv
+Tvorba pasiva;"Tvori se pomoću werden i participa perfekta glagola.
+Sadašnjost: Das Buch wird geschrieben. -- Knjiga je napisana.
+Prošlost: Das Buch wurde geschrieben. -- Knjiga je bila napisana."
+ja sam pitan;ich werde gefragt
+ich werde gefragt;ja sam pitan
+ti si pitan;du wirst gefragt
+du wirst gefragt;ti si pitan
+ono je pitan;es wird gefragt
+es wird gefragt;ono je pitan
+mi smo pitani;wir werden gefragt
+wir werden gefragt;mi smo pitani
+vi ste pitani;ihr werdet gefragt
+ihr werdet gefragt;vi ste pitani
+oni su pitani;sie werden gefragt
+sie werden gefragt;oni su pitani
+ja sam bio pitan;ich wurde gefragt
+ich wurde gefragt;ja sam bio pitan
+ti si bio pitan;du wurdest gefragt
+du wurdest gefragt;ti si bio pitan
+on je bio pitan;es wurde gefragt
+es wurde gefragt;on je bio pitan
+mi smo bili pitani;wir wurden gefragt
+wir wurden gefragt;mi smo bili pitani
+vi ste bili pitani;ihr wurdet gefragt
+ihr wurdet gefragt;vi ste bili pitani
+oni su bili pitani;sie wurden gefragt
+sie wurden gefragt;oni su bili pitani
+ja sam;ich bin
+ich bin;ja sam
+ti si;du bist
+du bist;ti si
+ono je;es ist
+es ist;ono je
+mi smo;wir sind
+wir sind;mi smo
+vi ste;ihr seid
+ihr seid;vi ste
+oni su;sie sind
+sie sind;oni su
+ja sam bio;ich war
+ich war;ja sam bio
+ti si bio;du warst
+du warst;ti si bio
+on je bio;es war
+es war;on je bio
+mi smo bili;wir waren
+wir waren;mi smo bili
+vi ste bili;ihr wart
+ihr wart;vi ste bili
+oni su bili;sie waren
+sie waren;oni su bili
+ja imam;ich habe
+ich habe;ja imam
+ti imaš;du hast
+du hast;ti imaš
+ono ima;es hat
+es hat;ono ima
+mi imamo;wir haben
+wir haben;mi imamo
+vi imate;ihr habt
+ihr habt;vi imate
+oni imaju;sie haben
+sie haben;oni imaju
+ja sam imao;ich hatte
+ich hatte;ja sam imao
+ti si imao;du hattest
+du hattest;ti si imao
+on je imao;es hatte
+es hatte;on je imao
+mi smo imali;wir hatten
+wir hatten;mi smo imali
+vi ste imali;ihr hattet
+ihr hattet;vi ste imali
+oni su imali;sie hatten
+sie hatten;oni su imali
+ja smijem;ich darf
+ich darf;ja smijem
+ti smiješ;du darfst
+du darfst;ti smiješ
+ono smije;es darf
+es darf;ono smije
+mi smijemo;wir dürfen
+wir dürfen;mi smijemo
+vi smijete;ihr dürft
+ihr dürft;vi smijete
+oni smiju;sie dürfen
+sie dürfen;oni smiju
+ja sam smio;ich durfte
+ich durfte;ja sam smio
+ti si smio;du durftest
+du durftest;ti si smio
+on je smio;es durfte
+es durfte;on je smio
+mi smo smjeli;wir durften
+wir durften;mi smo smjeli
+vi ste smjeli;ihr durftet
+ihr durftet;vi ste smjeli
+oni su smjeli;sie durften
+sie durften;oni su smjeli
+ja mogu;ich kann
+ich kann;ja mogu
+ti možeš;du kannst
+du kannst;ti možeš
+ono može;es kann
+es kann;ono može
+mi možemo;wir können
+wir können;mi možemo
+vi možete;ihr könnt
+ihr könnt;vi možete
+oni mogu;sie können
+sie können;oni mogu
+ja sam mogao;ich konnte
+ich konnte;ja sam mogao
+ti si mogao;du konntest
+du konntest;ti si mogao
+on je mogao;es konnte
+es konnte;on je mogao
+mi smo mogli;wir konnten
+wir konnten;mi smo mogli
+vi ste mogli;ihr konntet
+ihr konntet;vi ste mogli
+oni su mogli;sie konnten
+sie konnten;oni su mogli
+ja moram;ich muss
+ich muss;ja moram
+ti moraš;du musst
+du musst;ti moraš
+ono mora;es muss
+es muss;ono mora
+mi moramo;wir müssen
+wir müssen;mi moramo
+vi morate;ihr müsst
+ihr müsst;vi morate
+oni moraju;sie müssen
+sie müssen;oni moraju
+ja sam morao;ich musste
+ich musste;ja sam morao
+ti si morao;du musstest
+du musstest;ti si morao
+on je morao;es musste
+es musste;on je morao
+mi smo morali;wir mussten
+wir mussten;mi smo morali
+vi ste morali;ihr musstet
+ihr musstet;vi ste morali
+oni su morali;sie mussten
+sie mussten;oni su morali
+ja trebam;ich soll
+ich soll;ja trebam
+ti trebaš;du sollst
+du sollst;ti trebaš
+ono treba;es soll
+es soll;ono treba
+mi trebamo;wir sollen
+wir sollen;mi trebamo
+vi trebate;ihr sollt
+ihr sollt;vi trebate
+oni trebaju;sie sollen
+sie sollen;oni trebaju
+ja sam trebao;ich sollte
+ich sollte;ja sam trebao
+ti si trebao;du solltest
+du solltest;ti si trebao
+on je trebao;es sollte
+es sollte;on je trebao
+mi smo trebali;wir sollten
+wir sollten;mi smo trebali
+vi ste trebali;ihr solltet
+ihr solltet;vi ste trebali
+oni su trebali;sie sollten
+sie sollten;oni su trebali
+ja hoću;ich will
+ich will;ja hoću
+ti hoćeš;du willst
+du willst;ti hoćeš
+ono hoće;es will
+es will;ono hoće
+mi hoćemo;wir wollen
+wir wollen;mi hoćemo
+vi hoćete;ihr wollt
+ihr wollt;vi hoćete
+oni hoće;sie wollen
+sie wollen;oni hoće
+ja sam htio;ich wollte
+ich wollte;ja sam htio
+ti si htio;du wolltest
+du wolltest;ti si htio
+on je htio;es wollte
+es wollte;on je htio
+mi smo htjeli;wir wollten
+wir wollten;mi smo htjeli
+vi ste htjeli;ihr wolltet
+ihr wolltet;vi ste htjeli
+oni su htjeli;sie wollten
+sie wollten;oni su htjeli
+ja želim;ich möchte
+ich möchte;ja želim
+ti želiš;du möchtest
+du möchtest;ti želiš
+ono želi;es möchte
+es möchte;ono želi
+mi želimo;wir möchten
+wir möchten;mi želimo
+vi želite;ihr möchtet
+ihr möchtet;vi želite
+oni žele;sie möchten
+sie möchten;oni žele
+ja sam želio;ich mochte
+ich mochte;ja sam želio
+ti si želio;du mochtest
+du mochtest;ti si želio
+on je želio;es mochte
+es mochte;on je želio
+mi smo željeli;wir mochten
+wir mochten;mi smo željeli
+vi ste željeli;ihr mochtet
+ihr mochtet;vi ste željeli
+oni su željeli;sie mochten
+sie mochten;oni su željeli
