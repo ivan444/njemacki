@@ -115,25 +115,6 @@ wohin;kamo
 kamo;wohin
 womit;s čime
 s čime;womit
-# Prilozi
-an;do
-do;an
-auf;na
-na;auf
-hinter;iza
-iza;hinter
-in;u
-u;in
-neben;pokraj
-pokraj;neben
-über;preko, iznad
-preko, iznad;über
-unter;ispod
-ispod;unter
-vor;pred
-pred;vor
-zwischen;između
-između;zwischen
 # Skraćenice
 an das;ans
 ans (skraćeno od);an das
@@ -153,7 +134,7 @@ zu der;zur
 zur (skraćeno od);zu der
 # Prijedlozi
 anstatt;umjesto (zahtjeva genitiv)
-umjesto;anstatt (zahtjeva genitiv)
+umjesto;stat / anstatt (zahtjeva genitiv)
 außerhalb;izvan (zahtjeva genitiv)
 izvan;außerhalb (zahtjeva genitiv)
 dank;zahvaljujući (zahtjeva genitiv)
@@ -165,13 +146,12 @@ unutar;innerhalb (zahtjeva genitiv)
 jenseits;s one strane (zahtjeva genitiv)
 s one strane;jenseits (zahtjeva genitiv)
 statt;umjesto (zahtjeva genitiv)
-umjesto;statt (zahtjeva genitiv)
 trotz;unatoč (zahtjeva genitiv)
 unatoč;trotz (zahtjeva genitiv)
 während;tijekom, dok (zahtjeva genitiv)
 tijekom, dok;während (zahtjeva genitiv)
 wegen;zbog (zahtjeva genitiv)
-zbog;wegen (zahtjeva genitiv)
+zbog;weil (veznik) / wegen (prijedlog, zahtjeva genitiv)
 aus;iz, van (zantjeva dativ)
 iz, van;aus (zantjeva dativ)
 außer;usput, osim, izuzev (zantjeva dativ)
@@ -238,7 +218,6 @@ kad;als
 dass;da
 da (veznik);dass
 weil;zbog
-zbog;weil
 wenn;ako
 ako;wenn
 # Osobne zamjenice
@@ -251,79 +230,63 @@ er / sie / es;on / ona / ono
 mi;wir
 wir;mi
 vi;ihr
-sie;oni
+ihr;vi (nominativ) / njihov (nominativ) / njoj (dativ) / njezin (nominativ)
+sie;oni (nominativ) / njih (akuzativ)
 oni;sie
-meiner;mene
-mene;meiner
-tebe / Vas;deiner / Ihrer
-deiner / Ihrer;tebe / Vas
+meiner;mene (nominativ)
+mene;meiner (nominativ) / mich (akuzativ)
+tebe / Vas (genitiv);deiner / Ihrer
+deiner / Ihrer;tebe / Vas (genitiv)
 njega / nje / njega;seiner / ihrer / seiner
 seiner / ihrer / seiner;njega / nje / njega
-nas;unser
-unser;nas
-vas;euer
-ihrer;njih
-njih;ihrer
+nas (genitiv);unser
+unser;nas (genitiv) / naš (nominativ)
+vas (genitiv);euer
+euer;vas (genitiv) / vaš (nominativ)
+ihrer (genitiv);njih
+njih (genitiv);ihrer
 sebi;mir
+mir;sebi
 dir / Ihnen;tebi / Vama
 tebi / Vama;dir / Ihnen
 njemu / njoj / njemu;ihm / ihr / ihm
 ihm / ihr / ihm;njemu / njoj / njemu
-nama;uns
-uns;nama
-vama;euch
-euch;vama
+nama;uns (dativ)
+vama;euch (dativ)
+euch;vama (dativ) / vas (akuzativ)
 njima;ihnen
 ihnen;njima
-mene;mich
-mich;mene
-tebe / Vas;dich / Sie
-dich / Sie;tebe / Vas
+mich;mene (akuzativ)
+tebe / Vas (akuzativ);dich / Sie
+dich / Sie;tebe / Vas (akuzativ)
 njega / nju / to;ihn / sie / es
 ihn / sie / es;njega / nju / to
-nas;uns
-uns;nas
-vas;euch
-euch;vas
-njih;sie
-sie;njih
+nas (akuzativ);uns
+uns;nama (dativ) / nas (akuzativ)
+vas;euch (akuzativ)
 # Posvojne zamjenice
 moj;mein
-mein;moj
+mein;moj / moja / moje
 tvoj / Vaš;dein / Ihr
 dein / Ihr;tvoj / Vaš
 njegov / njezin / njegov;sein / ihr / sein
 sein / ihr / sein;njegov / njezin / njegov
 naš;unser
-unser;naš
 vaš;euer
-euer;vaš
 njihov;ihr
-ihr;njihov
 moja;meine
-meine;moja
 tvoja / Vaša;deine / Ihre
 deine / Ihre;tvoja / Vaša
 njegova / njezina / njegova;seine / ihre / seine
 seine / ihre / seine;njegova / njezina / njegova
 naša;unsere
-unsere;naša
 vaša;euere
-euere;vaša
 njihova;ihre
-ihre;njihova
 moje;mein
-mein;moje
 tvoje / Vaše;dein / Ihr
-dein / Ihr;tvoje / Vaše
-njegovo / njezino / njegovo;sein / ihr / sein
-sein / ihr / sein;njegovo / njezino / njegovo
 naše;unser
-unser;naše
 vaše;euer
-euer;vaše
 njihovo;ihr
-ihr;njihovo
 moji / moja / moje;meine
 meine;moji / moja / moje
 tvoji / tvoja / tvoje;deine
@@ -333,34 +296,32 @@ Ihre;Vaši / Vaša / Vaše
 njegovi / njegova / njegove;seine
 seine;njegovi / njegova / njegove
 njezini / njezina / njezine;ihre
-ihre;njezini / njezina / njezine
+ihre;njezini / njezina / njezine / njihovi / njihova / njihove
 naši / naša / naše;unsere
 unsere;naši / naša / naše
 vaši / vaša / vaše;euere
 euere;vaši / vaša / vaše
 njihovi / njihova / njihove;ihre
-ihre;njihovi / njihova / njihove
 # Deklinacija posvojnih zamjenica
 moj otac;mein Vater
 mein Vater;moj otac
 moja majka;meine Mutter
-meine Mutter;moja majka
+meine Mutter;moja majka / moju majku
 moja knjiga;mein Buch
-mein Buch;moja knjiga
+mein Buch;moja knjiga / moju knjigu (akuzativ)
 moje knjige;meine Bücher
-meine Bücher;moje knjige
+meine Bücher;moje knjige (nominativ & akuzativ)
 moga oca (genitiv);meines Vaters
 meines Vaters;moga oca (genitiv)
 moje majke (genitiv);meiner Mutter
-meiner Mutter;moje majke (genitiv)
+meiner Mutter;moje majke (genitiv) / mojoj majci (dativ)
 moje knjige (genitiv);meines Buches
 meines Buches;moje knjige (genitiv)
 mojih knjiga (genitiv);meiner Bücher
 meiner Bücher;mojih knjiga (genitiv)
 mom ocu (dativ);meinem Vater
 meinem Vater;mom ocu (dativ)
-mojoj majki (dativ);meiner Mutter
-meiner Mutter;mojoj majki (dativ)
+mojoj majci (dativ);meiner Mutter
 mojoj knjizi (dativ);meinem Buch
 meinem Buch;mojoj knjizi (dativ)
 mojim knjigama (dativ);meinen Büchern
@@ -368,11 +329,8 @@ meinen Büchern;mojim knjigama (dativ)
 moga oca (akuzativ);meinen Vater
 meinen Vater;moga oca (akuzativ)
 moju majku (akuzativ);meine Mutter
-meine Mutter;moju majku (akuzativ)
 moju knjigu (akuzativ);mein Buch
-mein Buch;moju knjigu (akuzativ)
 moje knjige (akuzativ);meine Bücher
-meine Bücher;moje knjige (akuzativ)
 # Povratne zamjenice
 ja se;ich mich
 ich mich;ja se
@@ -404,36 +362,29 @@ kao;solcher
 # Pokazna zamjenica dieser, dieses, diese (taj, ta, to, ovaj, ova, ovo).}
 ovaj, taj;dieser (Nominativ)
 dieser (Nominativ);ovaj, taj
-(od) ovoga, toga;dieses (Genitiv)
+(od) ovoga, toga;dieses / dessen (Genitiv)
 dieses (Genitiv);(od) ovoga, toga
 ovome, tome;diesem (Dativ)
 diesem (Dativ);ovome, tome
 ovoga, toga;diesen (Akuzativ)
 diesen (Akuzativ);ovoga, toga
 ova, ta;diese (Nominativ)
-diese (Nominativ);ova, ta
+diese (Nominativ);ova, ta / ovi, ti
 (od) ove, te;dieser (Genitiv)
-dieser (Genitiv);(od) ove, te
+dieser (Genitiv);(od) ove, te / (od) ovih, tih
 ovoj, toj;dieser (Dativ)
 dieser (Dativ);ovoj, toj
 ovu, tu;diese (Akuzativ)
-diese (Akuzativ);ovu, tu
-ovo, to;dieses / dies (Nominativ)
+diese (Akuzativ);ovu, tu / ove, te
+ovo, to;dieses / dies (Nominativ & Akuzativ)
 dieses / dies (Nominativ);ovo, to
-(od) ovoga, toga;dessen (Genitiv)
 dessen (Genitiv);(od) ovoga, toga
-ovome, tome;diesem (Dativ)
-diesem (Dativ);ovome, tome
-ovo, to;dieses / dies (Akuzativ)
 dieses / dies (Akuzativ);ovo, to
 ovi, ti;diese (Nominativ)
-diese (Nominativ);ovi, ti
 (od) ovih, tih;dieser (Genitiv)
-dieser (Genitiv);(od) ovih, tih
 ovima, tima;diesen (Dativ)
 diesen (Dativ);ovima, tima
 ove, te;diese (Akuzativ)
-diese (Akuzativ);ove, te
 # Glagoli
 ja idem;ich gehe (nastavak: -e)
 ti ideš / Vi idete;du gehst / Sie gehen (nastavak: -st / -en)
@@ -444,11 +395,9 @@ oni idu;sie gehen (nastavak: -en)
 # Prošlo vrijeme
 Tvorba prošlog vremena;Tvori se dodavanjem nastavka -te na korijen riječi (kod pravilnih glagola). Ako korijen završava na -t ili -d, -e se dodaje prije nastavka -te. Konjugacija slijedi pravila iz prezenta (samo što korijen ima nastavak).
 # Prošlo svršeno vrijeme
-Tvorba prošlog svršenog vremena; "Tvori se dodavanjem prefiksa ge- i sufiksa -t na korjen riječi. Koristi se uz pomoćni glagol haben: Ich have gekauft.
-Glagoli koji izražavaju kretanje tvore prošlo svršeno vrijeme pomoćnim glagolom sein: Ich bin gefahren."
+Tvorba prošlog svršenog vremena;Tvori se dodavanjem prefiksa ge- i sufiksa -t na korjen riječi. Koristi se uz pomoćni glagol haben: Ich have gekauft. Glagoli koji izražavaju kretanje tvore prošlo svršeno vrijeme pomoćnim glagolom sein: Ich bin gefahren.
 # Futur
-Tvorba futura;
-Tvori se pomoću werden i glagola u infinitivu. Osim futura, werden može značiti postati: Ich werde essen -- Ja ću jesti.
+Tvorba futura;Tvori se pomoću werden i glagola u infinitivu. Osim futura, werden može značiti postati: Ich werde essen -- Ja ću jesti.
 # Glagol werden
 ja ću;ich werde
 ich werde;ja ću
@@ -475,9 +424,7 @@ ihr wurdet;vi ste postali
 oni su postali;sie wurden
 sie wurden;oni su postali
 # Pasiv
-Tvorba pasiva;"Tvori se pomoću werden i participa perfekta glagola.
-Sadašnjost: Das Buch wird geschrieben. -- Knjiga je napisana.
-Prošlost: Das Buch wurde geschrieben. -- Knjiga je bila napisana."
+Tvorba pasiva;Tvori se pomoću werden i participa perfekta glagola. Sadašnjost: Das Buch wird geschrieben. -- Knjiga je napisana. Prošlost: Das Buch wurde geschrieben. -- Knjiga je bila napisana.
 ja sam pitan;ich werde gefragt
 ich werde gefragt;ja sam pitan
 ti si pitan;du wirst gefragt
